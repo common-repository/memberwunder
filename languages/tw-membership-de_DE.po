@@ -1,0 +1,2751 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MemberWunder\n"
+"POT-Creation-Date: 2017-12-18 17:10+0300\n"
+"PO-Revision-Date: 2017-12-18 17:11+0300\n"
+"Last-Translator: Alexandr Mazurok <a@mazurok.ru>\n"
+"Language-Team: dm-ant@yandex.ru\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_attr_e;_x;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:1
+msgid "Here you can change basic information of your courses."
+msgstr "Hier kannst du die Grundinformationen deines Kurses ändern."
+
+#: assets/dashboard/views/meta_boxes/course-info.php:6
+msgid "Hier bestimmst Du die Kategorie deines Kurses wie z.B. “Traffic”."
+msgstr "Hier bestimmst du die Kategorie deines Kurses, wie z.B. \"Traffic\""
+
+#: assets/dashboard/views/meta_boxes/course-info.php:7
+#: include/services/smtp.php:169 templates/single-course.php:82
+msgid "Subject"
+msgstr "Kategorie"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:15
+msgid ""
+"Here you can change the difficulty level of your courses, e.g. “beginner, "
+"advanced or expert”"
+msgstr ""
+"Hier kannst du den Schwierigkeitsgrad deines Kurses ändern, z.B. \"Anfänger, "
+"Fortgeschritten oder Experte\""
+
+#: assets/dashboard/views/meta_boxes/course-info.php:16
+#: templates/single-course.php:101
+msgid "Level"
+msgstr "Schwierigkeit"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:26
+msgid "Write down the approximate length of your course, e.g. 12 hours"
+msgstr "Trage hier die ungefähre Dauer deines Kurses ein, z.B. 12 Stunden"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:27
+#: templates/single-course.php:89
+msgid "Duration"
+msgstr "Kurslänge"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:30
+#: include/functions.php:216
+msgid "Hours"
+msgstr "Stunden"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:36
+msgid "Make modules obligatory"
+msgstr "Abschluss von Modulen verpflichtend"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:41
+#: include/services/smtp.php:128
+msgid "No"
+msgstr "Nein"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:42
+#: include/services/smtp.php:129
+msgid "Yes"
+msgstr "Ja"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:54
+msgid ""
+"Determine the price to be shown in the membership are. Important: The real "
+"price is determined in Digistore24."
+msgstr ""
+"Bestimme hier den Preis, der im Mitgliederbereich angezeigt werden soll. "
+"Wichtig: Der echte Preis wird in Digistore24 bestimmt."
+
+#: assets/dashboard/views/meta_boxes/course-info.php:55
+#: templates/single-course.php:95
+msgid "Price"
+msgstr "Preis"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:74
+msgid ""
+"Set the time on how long you want to allow a specific user to have access to "
+"this course"
+msgstr ""
+"Lege hier den Zeitraum fest, in dem ein Mitglied Zugriff auf deinen Kurs "
+"haben wird"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:75
+msgid "Limit access by time"
+msgstr "Zugriff zum Kurs zeitlich begrenzen"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:78
+#: include/functions.php:215
+msgid "Days"
+msgstr "Tage"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:87
+#: include/data_fields.php:50
+msgid "Show this course on login page"
+msgstr "Zeige diese Kurse auf der Login-Seite"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:100
+msgid ""
+"Choose to either show or hide the price of the course in the membership area "
+"before buying it"
+msgstr ""
+"Wähle, ob du den Preis im Mitgliederbereich anzeigst oder versteckst, bevor "
+"man den Kurs kauft."
+
+#: assets/dashboard/views/meta_boxes/course-info.php:101
+msgid "Price display options before purchase"
+msgstr "Anzeige-Option für den Kurs-Preis vor dem Kauf"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:106
+#: assets/dashboard/views/meta_boxes/course-info.php:130
+msgid "Show price in course and on course overview"
+msgstr "Zeige den Preis im Kurs und in der Kursübersicht"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:107
+#: assets/dashboard/views/meta_boxes/course-info.php:131
+msgid "Show price only in course"
+msgstr "Zeige Preis nur im Kurs"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:108
+#: assets/dashboard/views/meta_boxes/course-info.php:129
+msgid "Don’t show price"
+msgstr "Zeige keinen Preis"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:123
+msgid ""
+"Choose to either show or hide the price of the course in the membership area "
+"after buying it"
+msgstr ""
+"Wähle, ob du den Preis im Mitgliederbereich anzeigst oder versteckst, "
+"nachdem man den Kurs gekauft hat."
+
+#: assets/dashboard/views/meta_boxes/course-info.php:124
+msgid "Price display options after purchase"
+msgstr "Anzeige-Option für den Kurs-Preis nach dem Kauf"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:147
+msgid "Choose to show price of the course as “net”, “gross” or without taxes."
+msgstr ""
+"Wähle, ob du den Preis als \"Netto\", \"Brutto\" oder ohne Steuern anzeigst."
+
+#: assets/dashboard/views/meta_boxes/course-info.php:148
+msgid "Tax display options"
+msgstr "Umsatzsteuer anzeigen"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:153
+msgid "Add \"after tax (brutto)\""
+msgstr "Zeige den Preis inkl. Umsatzsteuer"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:154
+msgid "Add \"before tax (netto)\""
+msgstr "Zeige den Preis zzgl. Umsatzsteuer"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:155
+msgid "Don’t show tax"
+msgstr "Zeige keine Steuer"
+
+#: assets/dashboard/views/meta_boxes/course-info.php:187
+msgid "Here you can fill in a description of your courses."
+msgstr "Hier kannst du die Beschreibung deiner Kurse einfügen."
+
+#: assets/dashboard/views/meta_boxes/course-info.php:188
+#: assets/dashboard/views/settings/fields/social.php:21
+#: include/controller/options/sections/dashboard.php:72
+#: include/controller/options/sections/login_page.php:119
+msgid "Description"
+msgstr "Beschreibung"
+
+#: assets/dashboard/views/meta_boxes/modules-lessons.php:1
+msgid ""
+"Here you can fill in the actual content of your courses. If you want to know "
+"how it works, visit https://memberwunder.com/hilfe"
+msgstr ""
+"Hier kannst du den Inhalt deiner Kurse einfügen. Wenn du wissen willst, wie "
+"das funktioniert, besuche https://memberwunder.com/hilfe"
+
+#: assets/dashboard/views/meta_boxes/modules-lessons.php:3
+msgid "New module"
+msgstr "Neues Modul"
+
+#: assets/dashboard/views/meta_boxes/modules-lessons.php:6
+msgid "New lesson"
+msgstr "Neue Lektion"
+
+#: assets/dashboard/views/meta_boxes/modules-lessons.php:9
+msgid "New quiz"
+msgstr "Neues Quiz"
+
+#: assets/dashboard/views/meta_boxes/modules-lessons.php:12
+msgid "New question"
+msgstr "Neue Frage"
+
+#: assets/dashboard/views/meta_boxes/modules-lessons.php:75
+msgid "Add module"
+msgstr "Modul hinzufügen"
+
+#: assets/dashboard/views/meta_boxes/payment.php:1 include/classes.php:707
+msgid "This function will be available in MemberWunder PRO."
+msgstr "Diese Funktion ist nur in MemberWunder PRO verfügbar."
+
+#: assets/dashboard/views/nav_menu/pages.php:23
+msgid "Add to Menu"
+msgstr "Zum Menü hinzufügen"
+
+#: assets/dashboard/views/notice.php:10
+msgid "Dismiss"
+msgstr "Ausblenden"
+
+#: assets/dashboard/views/settings/fields/digistore24.php:3
+msgid "Attention. Digistore24 API key should be with write access!"
+msgstr "Achtung. Digistore24 API-Schlüssel sollte mit Schreibzugriff sein!"
+
+#: assets/dashboard/views/settings/fields/image.php:13
+#: assets/dashboard/views/settings/fields/social.php:53
+#: include/functions.php:448 include/functions.php:493
+#: include/functions.php:584
+msgid "Upload image"
+msgstr "Bild hochladen"
+
+#: assets/dashboard/views/settings/fields/import_block.php:3
+msgid ""
+"You need to make folder uploads writable before you can import data. See <a "
+"href=\"https://codex.wordpress.org/Changing_File_Permissions\">the Codex</a> "
+"for more information."
+msgstr ""
+"Du musst Schreibzugriff auf den Upload-Folder freigeben. Schau dir den <a "
+"href=\"https://codex.wordpress.org/Changing_File_Permissions\">WordPress "
+"Codex</a> für mehr Informationen an."
+
+#: assets/dashboard/views/settings/fields/import_block.php:10
+msgid "Importing"
+msgstr "Importiere"
+
+#: assets/dashboard/views/settings/fields/import_block.php:11
+msgid "Start import"
+msgstr "Import starten"
+
+#: assets/dashboard/views/settings/fields/import_block.php:21
+#, php-format
+msgid "Maximum upload file size: %s"
+msgstr "Maximale Dateigröße für Upload: %s"
+
+#: assets/dashboard/views/settings/fields/import_block.php:23
+msgid "Loading can take a few minutes."
+msgstr "Das Hochladen kann ein paar Minuten dauern."
+
+#: assets/dashboard/views/settings/fields/license.php:10
+msgid "ERROR"
+msgstr "FEHLER"
+
+#: assets/dashboard/views/settings/fields/social.php:8
+msgid "Label"
+msgstr "Name"
+
+#: assets/dashboard/views/settings/fields/social.php:15
+msgid "Write down the name of your social profile here."
+msgstr "Trage hier den Namen deines Social media Profils ein."
+
+#: assets/dashboard/views/settings/fields/social.php:27
+msgid "Write down a “call-to-action” like e.g. “Follow me on Facebook”."
+msgstr ""
+"Trage hier einen \"Call-To-Action\" ein, z.B. \"Folge mir auf Facebook\"."
+
+#: assets/dashboard/views/settings/fields/social.php:32
+msgid "URL"
+msgstr "URL"
+
+#: assets/dashboard/views/settings/fields/social.php:38
+msgid "Put in the link to your social media profile here."
+msgstr "Trage hier den Link zu deinem Social media Profil ein."
+
+#: assets/dashboard/views/settings/fields/social.php:43
+msgid "Image"
+msgstr "Bild"
+
+#: assets/dashboard/views/settings/fields/social.php:51
+msgid "Fill in a picture or icon of the chosen social network."
+msgstr "Füge hier ein Bild oder Icon deines gewählten Sozialen Netzwerks ein."
+
+#: assets/dashboard/views/settings/fields/social.php:60
+msgid "Delete"
+msgstr "Löschen"
+
+#: assets/dashboard/views/settings/fields/social.php:104
+msgid "Add item"
+msgstr "Objekt hinzufügen"
+
+#: assets/dashboard/views/settings/fields/template.php:20
+msgid "custom"
+msgstr "individuell"
+
+#: assets/dashboard/views/settings/wrapper.php:2 include/classes.php:203
+#: include/classes.php:359 include/classes.php:360
+#: include/controller/options/options.php:201
+#: include/controller/options/options.php:202
+msgid "MemberWunder"
+msgstr "MemberWunder"
+
+#: assets/frontend/views/template/blocks/user/login.php:7
+#: assets/frontend/views/template/blocks/user/login_courses.php:13
+#: assets/frontend/views/template/blocks/user/lostpassword.php:7
+#: assets/frontend/views/template/blocks/user/lostpassword_courses.php:12
+msgid "Email or Username"
+msgstr "E-Mail / Username"
+
+#: assets/frontend/views/template/blocks/user/login.php:23
+#: assets/frontend/views/template/blocks/user/login_courses.php:23
+#: include/controller/user/profile_system.php:68
+#: templates/single-page-register.php:64
+msgid "Password"
+msgstr "Passwort"
+
+#: assets/frontend/views/template/blocks/user/login.php:40
+#: assets/frontend/views/template/blocks/user/login_courses.php:35
+#: assets/frontend/views/template/blocks/user/login_courses.php:39
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+#: assets/frontend/views/template/blocks/user/login.php:44
+#: assets/frontend/views/template/blocks/user/login_courses.php:28
+msgid "Log in"
+msgstr "Einloggen"
+
+#: assets/frontend/views/template/blocks/user/login_courses.php:47
+#: assets/frontend/views/template/blocks/user/login_courses.php:52
+#: include/controller/pages.php:107
+#: templates/single-course-no-authorized.php:29
+msgid "Register"
+msgstr "Registrieren"
+
+#: assets/frontend/views/template/blocks/user/lostpassword.php:22
+#: assets/frontend/views/template/blocks/user/lostpassword_courses.php:17
+msgid "Get New Password"
+msgstr "Neues Passwort anfordern"
+
+#: assets/frontend/views/template/blocks/user/lostpassword_courses.php:22
+#: include/controller/pages.php:104
+#: templates/single-course-no-authorized.php:30
+msgid "Login"
+msgstr "Einloggen"
+
+#: assets/frontend/views/template/blocks/user/profile.php:32
+msgid "Save"
+msgstr "Speichern"
+
+#: include/classes.php:113
+msgid ""
+"Thanks for installing the free version of MemberWunder. Did you know that "
+"MemberWunder is even more powerful in the licensed version? You can "
+"monetarize your content, limit it to exclusive customers and start to build "
+"an online business. Click on \"<strong>Learn more</strong>\" to find out "
+"more about MemberWunder."
+msgstr ""
+"Danke für die Installation von MemberWunder. Hast du gewusst, dass "
+"MemberWunder in der lizenzierten Version noch viel mehr kann? Du kannst "
+"deine Inhalte verkaufen, sie einem exklusiven Kundenkreis zugänglich machen, "
+"dein Online Business aufbauen und vieles mehr. Klicke auf \"<strong>Mehr "
+"erfahren</strong>\" und finde heraus, wie du noch mehr aus MemberWunder "
+"herausholen kannst."
+
+#: include/classes.php:116
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
+#: include/classes.php:129
+msgid "Date"
+msgstr "Datum"
+
+#: include/classes.php:129
+msgid "Order"
+msgstr "Bestellung"
+
+#: include/classes.php:162 templates/layout/header.php:44
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: include/classes.php:170
+msgid "Get MemberWunder PRO"
+msgstr "MemberWunder PRO kaufen"
+
+#: include/classes.php:211 include/classes.php:220
+msgid "Visit MemberWunder"
+msgstr "Zu MemberWunder"
+
+#: include/classes.php:274
+msgid "Social icon"
+msgstr "Social media Icon"
+
+#: include/classes.php:275
+msgid "Advantage icon"
+msgstr "Vorteile-Icon"
+
+#: include/classes.php:361
+msgid "Add course"
+msgstr "Kurs hinzufügen"
+
+#: include/classes.php:362
+msgid "Add new course"
+msgstr "Neuen Kurs hinzufügen"
+
+#: include/classes.php:363
+msgid "Edit course"
+msgstr "Kurs bearbeiten"
+
+#: include/classes.php:364
+msgid "New course"
+msgstr "Neuer Kurs"
+
+#: include/classes.php:365
+msgid "View course"
+msgstr "Kurs ansehen"
+
+#: include/classes.php:366
+msgid "Search course"
+msgstr "Kurs suchen"
+
+#: include/classes.php:367
+msgid "No course found"
+msgstr "Kein Kurs gefunden"
+
+#: include/classes.php:368
+msgid "No course found in Trash"
+msgstr "Kein Kurs im Papierkorb gefunden"
+
+#: include/classes.php:707
+msgid "Import courses"
+msgstr "Kurse importieren"
+
+#: include/classes.php:728 include/data_fields.php:56
+msgid "Course info"
+msgstr "Kurs Informationen"
+
+#: include/classes.php:729
+msgid "Modules & Lessons"
+msgstr "Module & Lektionen"
+
+#: include/classes.php:730 include/data_fields.php:63
+msgid "Payment systems"
+msgstr "Zahlungsanbieter"
+
+#: include/controller/import_export/export.php:52
+msgid "Export"
+msgstr "Exportieren"
+
+#: include/controller/import_export/export.php:94
+msgid "You have not selected any courses."
+msgstr "Du hast keine Kurse ausgewählt."
+
+#: include/controller/import_export/export.php:105
+msgid "Error create ZIP archive with export data."
+msgstr "Feher beim Erstellen des ZIP-Archivs für den Export."
+
+#: include/controller/import_export/import.php:83
+msgid "You are loading not ZIP archive with courses."
+msgstr "Die hochgeladene Datei ist kein ZIP-Archiv mit Kursen."
+
+#: include/controller/import_export/import.php:99
+#, php-format
+msgid "You have successfully imported %s, %s, %s!"
+msgstr "Du hast erfolgreich %s, %s, %s importiert!"
+
+#: include/controller/import_export/import.php:100
+#, php-format
+msgid "%s course"
+msgid_plural "%s courses"
+msgstr[0] "%s Kurs"
+msgstr[1] "%s Kurse"
+
+#: include/controller/import_export/import.php:101
+#: templates/single-course.php:90
+#, php-format
+msgid "%s module"
+msgid_plural "%s modules"
+msgstr[0] "%s Modul"
+msgstr[1] "%s Module"
+
+#: include/controller/import_export/import.php:102
+#, php-format
+msgid "%s lesson"
+msgid_plural "%s lessons"
+msgstr[0] "%s Lektion"
+msgstr[1] "%s Lektionen"
+
+#: include/controller/import_export/import.php:126
+msgid "There was an error unzipping the file with courses."
+msgstr "Es gab einen Fehler beim Entpacken der Kurse."
+
+#: include/controller/import_export/import.php:132
+#: include/controller/import_export/import.php:158
+msgid "There was an error on loading courses to site."
+msgstr "Es gab einen Fehler beim Hochladen der Kurse auf deine Seite."
+
+#: include/controller/import_export/import.php:161
+msgid "Invalid format of xml file with courses."
+msgstr "Ungültiges Format der .xml-Datei mit den Kursen."
+
+#: include/controller/import_export/import.php:169
+#: include/controller/import_export/import.php:206
+msgid "Error create element"
+msgstr "Fehler beim Erstellen des Elements"
+
+#: include/controller/menu.php:33
+msgid "MemberWunder Header"
+msgstr "MemberWunder Header"
+
+#: include/controller/menu.php:34
+msgid "MemberWunder Footer"
+msgstr "MemberWunder Footer"
+
+#: include/controller/menu.php:35
+msgid "MemberWunder Guest"
+msgstr "MemberWunder Guest"
+
+#: include/controller/menu.php:40 include/controller/menu.php:52
+#: include/controller/options/sections/dashboard.php:36
+#: include/controller/pages.php:98
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: include/controller/menu.php:45 include/controller/menu.php:57
+#: include/controller/pages.php:95
+msgid "Courses"
+msgstr "Kursübersicht"
+
+#: include/controller/menu.php:64
+#: include/controller/options/sections/impressum_agb.php:52
+#: include/controller/pages.php:112 templates/single-page-impressum.php:6
+msgid "Impressum"
+msgstr "Impressum"
+
+#: include/controller/menu.php:69
+#: include/controller/options/sections/impressum_agb.php:61
+#: include/controller/pages.php:113 templates/single-page-agb.php:6
+msgid "AGB"
+msgstr "AGB"
+
+#: include/controller/menu.php:86
+msgid "MemberWunder Pages"
+msgstr "MemberWunder Seiten"
+
+#: include/controller/options/colors.php:18
+msgid "Main body background"
+msgstr "Hintergrundfarbe Hauptseite"
+
+#: include/controller/options/colors.php:20
+msgid "Change the main color of the background here."
+msgstr ""
+"Ändere hier die Hintergrundfarbe vom Hauptteil der Seiten im "
+"Mitgliederbereich"
+
+#: include/controller/options/colors.php:25
+msgid "Text color"
+msgstr "Schriftfarbe"
+
+#: include/controller/options/colors.php:26
+msgid "Change the color of the text here"
+msgstr "Ändere hier die Farbe der Schrift in deinem Mitgliederbereich"
+
+#: include/controller/options/colors.php:31
+msgid "Menu item text color"
+msgstr "Schriftfarbe Menüelemente"
+
+#: include/controller/options/colors.php:32
+msgid "Change the text color of menu items here"
+msgstr "Ändere hier die Schriftfarbe von Elementen im Menü"
+
+#: include/controller/options/colors.php:38
+msgid "Active menu item text color"
+msgstr "Schriftfarbe aktive Menüelemente"
+
+#: include/controller/options/colors.php:39
+msgid ""
+"Change the text color of menu items when the cursor hovers over the element"
+msgstr ""
+"Ändere hier die Schriftfarbe von Elementen im Menü, wenn der Mauscursor über "
+"dem Menüelement liegt."
+
+#: include/controller/options/colors.php:45
+msgid "Headline background color"
+msgstr "Hintergrundfarbe Überschrift Box"
+
+#: include/controller/options/colors.php:46
+msgid "Change the background color of the box around the headline of a page"
+msgstr "Ändere hier die Hintergrundfarbe von der Box um Überschriften"
+
+#: include/controller/options/colors.php:52
+msgid "Headline text color"
+msgstr "Hintergrundfarbe Überschrift Box"
+
+#: include/controller/options/colors.php:53
+msgid "Change the text color of headlines"
+msgstr "Ändere hier die Farbe von Überschriften"
+
+#: include/controller/options/colors.php:59
+msgid "Sidebar background color"
+msgstr "Hintergrundfarbe Seitenleiste"
+
+#: include/controller/options/colors.php:60
+msgid ""
+"Change the background color of the sidebar, which contains the meta-"
+"information about courses / lessons"
+msgstr ""
+"Ändere hier die Hintergrundfarbe von der Seitenleiste zu Kurs- und "
+"Modulinformationen und der Benachrichtigungsbox zu abgeschlossenen "
+"Lektionen / Modulen."
+
+#: include/controller/options/colors.php:66
+msgid "Sidebar text color"
+msgstr "Schriftfarbe Seitenleiste"
+
+#: include/controller/options/colors.php:67
+msgid ""
+"Change the text color of the sidebar, which contains the meta-informations "
+"about courses/lessons"
+msgstr ""
+"Ändere hier die Schriftfarbe von der Seitenleiste zu Kurs- und "
+"Modulinformationen und der Benachrichtigungsbox zu abgeschlossenen "
+"Lektionen / Modulen"
+
+#: include/controller/options/colors.php:73
+msgid "Sidebar icon color"
+msgstr "Iconfarbe Seitenleiste"
+
+#: include/controller/options/colors.php:74
+msgid ""
+"Change the color of items in the sidebar which contains the meta-information "
+"about courses / lessons"
+msgstr "Ändere hier die Schriftfarbe von den Icons in der Seitenleiste"
+
+#: include/controller/options/colors.php:80
+msgid "Overlay box background"
+msgstr "Hintergrund Overlay Box"
+
+#: include/controller/options/colors.php:81
+msgid ""
+"Change the background overlay color of the main boxes of courses / lessons"
+msgstr ""
+"Ändere hier die Hintergrund Overlay Farbe der Boxen von Kursen und Lektionen"
+
+#: include/controller/options/colors.php:92
+msgid "Course / lesson box text color"
+msgstr "Schriftfarbe Boxen"
+
+#: include/controller/options/colors.php:93
+msgid "Change the text color of the main boxes of courses / lessons"
+msgstr "Ändere hier die Schriftarbe der Boxen von Kursen und Lektionen"
+
+#: include/controller/options/colors.php:99
+msgid "Footer menu background"
+msgstr "Hintergrundfarbe Footer Menü"
+
+#: include/controller/options/colors.php:100
+msgid "Change the background color of the footer menu here"
+msgstr "Ändere hier die Hintergrundfarbe vom Footer Menü unterhalb der Seite"
+
+#: include/controller/options/colors.php:106
+msgid "Footer menu item text color"
+msgstr "Schriftfarbe Footer Menü Elemente"
+
+#: include/controller/options/colors.php:107
+msgid "Change the text color of footer menu items here"
+msgstr ""
+"Ändere hier die Hintergrundfarbe von Elementen im Footer Menü unterhalb der "
+"Seite"
+
+#: include/controller/options/colors.php:113
+msgid "Button background color"
+msgstr "Hintergrundfarbe Buttons"
+
+#: include/controller/options/colors.php:114
+msgid "Change the background color of buttons here"
+msgstr "Ändere hier die Hintergrundfarbe von Buttons "
+
+#: include/controller/options/currency.php:26
+msgid "Euro"
+msgstr "Euro"
+
+#: include/controller/options/currency.php:31
+msgid "Dollar"
+msgstr "Dollar"
+
+#: include/controller/options/currency.php:36
+msgid "Swiss Franc"
+msgstr "Schweizer Franken"
+
+#: include/controller/options/options.php:164
+#, php-format
+msgid ""
+"You should allow new user registrations in your <a href=\"%s\">Network "
+"Settings</a> for proper plugin functioning"
+msgstr ""
+"Damit das Plugin ordentlich funktioniert, muss du Registrierungen von neuen "
+"Benutzer in deinen <a href=\"%s\">Einstellungen</a> aktivieren."
+
+#: include/controller/options/sections/analytics.php:36
+msgid "Analytics"
+msgstr "Analytics"
+
+#: include/controller/options/sections/analytics.php:52
+msgid "Header analytics code"
+msgstr "Header Tracking Code (Script) "
+
+#: include/controller/options/sections/analytics.php:63
+msgid "Footer analytics code"
+msgstr "Footer Tracking Code (Script) "
+
+#: include/controller/options/sections/autoresponders.php:36
+msgid "E-mail marketing"
+msgstr "E-Mail Marketing"
+
+#: include/controller/options/sections/autoresponders.php:54
+msgid "Allow Klick-Tipp"
+msgstr "Klick-Tipp aktivieren"
+
+#: include/controller/options/sections/autoresponders.php:60
+msgid "Klick-Tipp API key"
+msgstr "Klick-Tipp API key"
+
+#: include/controller/options/sections/autoresponders.php:67
+msgid "Allow MailChimp"
+msgstr "MailChimp aktivieren"
+
+#: include/controller/options/sections/autoresponders.php:73
+msgid "MailChimp API key"
+msgstr "MailChimp API key"
+
+#: include/controller/options/sections/autoresponders.php:80
+msgid "MailChimp List ID"
+msgstr "MailChimp Liste ID"
+
+#: include/controller/options/sections/autoresponders.php:87
+msgid "Allow ActiveCampaign"
+msgstr "ActiveCampaign aktivieren"
+
+#: include/controller/options/sections/autoresponders.php:93
+msgid "ActiveCampaign API URL"
+msgstr "ActiveCampaign API URL"
+
+#: include/controller/options/sections/autoresponders.php:100
+msgid "ActiveCampaign API key"
+msgstr "ActiveCampaign API key"
+
+#: include/controller/options/sections/autoresponders.php:107
+msgid "Allow GetResponse"
+msgstr "GetResponse aktivieren"
+
+#: include/controller/options/sections/autoresponders.php:113
+msgid "GetResponse API key"
+msgstr "GetResponse API key"
+
+#: include/controller/options/sections/autoresponders.php:120
+msgid "GetResponse Campaign Name"
+msgstr "GetResponse Kampagnen Name"
+
+#: include/controller/options/sections/autoresponders.php:134
+msgid "Here you can find instruction"
+msgstr "Hier findest du die Anleitung"
+
+#: include/controller/options/sections/autoresponders.php:134
+msgid "how to set this value"
+msgstr ", wie du diese Verbindung herstellst"
+
+#: include/controller/options/sections/dashboard.php:52
+msgid "Site title"
+msgstr "Willkommensnachricht"
+
+#: include/controller/options/sections/dashboard.php:56
+msgid "Write down a welcome message as e.g. “Welcome to MemberWunder”"
+msgstr ""
+"Schreibe hier deine Willkommensnachricht rein, z.B. \"Willkommen zu "
+"MemberWunder\""
+
+#: include/controller/options/sections/dashboard.php:58
+#: include/controller/options/sections/digistore24.php:102
+#: include/controller/options/sections/digistore24.php:123
+#: include/controller/options/sections/login_page.php:107
+msgid "Welcome to MemberWunder"
+msgstr "Herzlich Willkommen zu MemberWunder"
+
+#: include/controller/options/sections/dashboard.php:62
+#: include/controller/options/sections/login_page.php:111
+msgid "Subtitle"
+msgstr "Slogan"
+
+#: include/controller/options/sections/dashboard.php:66
+msgid "Write down a slogan as e.g. “best Wordpress membership plugin”."
+msgstr ""
+"Schreibe hier einen Slogan rein, z.B. \"bestes Wordpress Membership Plugin\""
+
+#: include/controller/options/sections/dashboard.php:68
+#: include/controller/options/sections/login_page.php:115
+msgid "Simply build a membership community"
+msgstr "Wunderbar einfach Mitglieder sammeln"
+
+#: include/controller/options/sections/dashboard.php:77
+msgid "Fill in an individual description of your membership area here."
+msgstr ""
+"Füge hier eine individuelle Beschreibung für deinen Mitgliederbereich ein."
+
+#: include/controller/options/sections/dashboard.php:80
+msgid ""
+"The MemberWunder Plugin is the simplest way to build a membership community, "
+"get paying customers and returning revenue. Directly after setting up the "
+"plugin, you have you own membership area like this here. You can upload your "
+"own course videos or use our whitelabel courses. Just try it - it has never "
+"been easier before."
+msgstr ""
+"Mit MemberWunder sammelst du so einfach wie noch nie Mitglieder, zahlende "
+"Kunden und wiederkehrende Umsätze. Direkt nach der Installation des Plugins "
+"hast du einen Mitgliederbereich, wie diesen hier, zur Verfügung und kannst "
+"deine eigenen Video hochladen oder bereits erstellte Kurse von uns verwenden."
+
+#: include/controller/options/sections/dashboard.php:84
+#: include/controller/options/sections/login_page.php:62
+msgid "Background image"
+msgstr "Hintergrundbild"
+
+#: include/controller/options/sections/dashboard.php:88
+msgid ""
+"Here you can upload your background image for the “hero-header” section. "
+"Ideal size 1000x1000px."
+msgstr ""
+"Hier kannst du dein Hintergrundbild für den \"Hero-Header\" einfügen. "
+"Optimale Maße 000x000px."
+
+#: include/controller/options/sections/dashboard.php:94
+msgid "Notice text"
+msgstr "Neuigkeiten Text"
+
+#: include/controller/options/sections/dashboard.php:99
+msgid ""
+"Fill in any text or call-to-action here. Useful for important messages "
+"addressing your subscribers."
+msgstr ""
+"Beliebigen Text oder Call-To-Action einfügen. Hilfreich, um wichtige "
+"Nachrichten an deine Mitglieder zu senden."
+
+#: include/controller/options/sections/dashboard.php:102
+msgid ""
+"First time here? Find out more about the MemberWunder plugin, watch our "
+"explainer videos and high quality courses, where we explain how you can "
+"build your own online imperium with this plugin → <a target=\"_blank\" href="
+"\"https://memberwunder.com\">memberwunder.com</a>"
+msgstr ""
+"Bist du neu hier? Finde mehr raus über das MemberWunder Plugin, hol dir alle "
+"Erklärvideos und wertvolle Kurse, in denen du lernst wie du mit dem Plugin "
+"dein Online Imperium aufbaust unter → <a target=\"_blank\" href=\"https://"
+"memberwunder.com\">memberwunder.com</a>"
+
+#: include/controller/options/sections/dashboard.php:106
+msgid "Notice image"
+msgstr "Neuigkeiten Bild"
+
+#: include/controller/options/sections/dashboard.php:110
+msgid "Upload an image to be shown next to the Notice text here."
+msgstr "Lade ein Bild hoch, das neben deinem Neuigkeiten-Text erscheint."
+
+#: include/controller/options/sections/design.php:70
+msgid "Design"
+msgstr "Design"
+
+#: include/controller/options/sections/design.php:107
+msgid "Logo"
+msgstr "Logo"
+
+#: include/controller/options/sections/design.php:111
+msgid ""
+"Here you can upload your individual logo for the header section of your "
+"membership area. Optimal Size 130x30px."
+msgstr ""
+"Hier kannst du dein individuelles Logo für den Header deines "
+"Mitgliederbereichs hochladen. Optimale Größe 130x30px"
+
+#: include/controller/options/sections/design.php:117
+msgid "Footer Logo"
+msgstr "Logo Fußzeile"
+
+#: include/controller/options/sections/design.php:121
+msgid ""
+"Here you can upload your individual logo for the footer section of your "
+"membership area. Optimal Size 130x30px."
+msgstr ""
+"Hier kannst du dein individuelles Logo für den Footer deines "
+"Mitgliederbereichs hochladen. Optimale Größe 130x30px"
+
+#: include/controller/options/sections/design.php:127
+msgid "Favicon"
+msgstr "Favicon"
+
+#: include/controller/options/sections/design.php:136
+msgid "Background image for registration page"
+msgstr "Hintergrundbild für Registrierungsseite"
+
+#: include/controller/options/sections/design.php:141
+msgid ""
+"Here you can set the background image for your registration page of your "
+"membership area."
+msgstr ""
+"Hier kannst du das Hintergrundbild für die Registrierungsseite deines "
+"Mitgliederbereichs festlegen."
+
+#: include/controller/options/sections/design.php:147
+msgid "Template"
+msgstr "Design-Vorlagen"
+
+#: include/controller/options/sections/design.php:151
+msgid "Here you can change coloring of your membership area."
+msgstr "Hier kannst du die Farbe deines Mitgliederbereichs ändern."
+
+#: include/controller/options/sections/design.php:157
+msgid "Hide MemberWunder Link"
+msgstr "MemberWunder Link verbergen"
+
+#: include/controller/options/sections/design.php:166
+msgid "Digistore24 ID"
+msgstr "Digistore24 ID"
+
+#: include/controller/options/sections/design.php:180
+msgid "Remove image color overlay"
+msgstr "Farbüberdeckung entfernen"
+
+#: include/controller/options/sections/design.php:185
+msgid ""
+"Choose this option if you want to show your course and module images without "
+"color overlay. Caution: Texts could be hardly readable without it!"
+msgstr ""
+"Wenn du deine Kurs- & Modulbilder ohne Farbüberlagerung anzeigen willst, "
+"wähle diese Option aus. Achtung: Die Schrift könnte dadurch ggf. schwer "
+"erkenntlich sein!"
+
+#: include/controller/options/sections/design.php:191
+msgid "Enable custom email templates"
+msgstr "Eigene E-Mail Templates aktivieren"
+
+#: include/controller/options/sections/design.php:201
+msgid "Custom CSS"
+msgstr "individuelles CSS"
+
+#: include/controller/options/sections/digistore24.php:36
+msgid "Digistore24"
+msgstr "Digistore24"
+
+#: include/controller/options/sections/digistore24.php:87
+msgid "Digistore24 API key"
+msgstr "Digistore24 API Key"
+
+#: include/controller/options/sections/digistore24.php:91
+msgid ""
+"Fill in you Digistore24 API key here. If you want to know where to find it, "
+"visit https://memberwunder.com/hilfe"
+msgstr ""
+"Füge hier deinen Digistore24 API key ein. Wenn du nicht weißt, wo du ihn "
+"findest, besuche https://memberwunder.com/hilfe"
+
+#: include/controller/options/sections/digistore24.php:97
+msgid "Subject (new user)"
+msgstr "Betreff (neuer User)"
+
+#: include/controller/options/sections/digistore24.php:106
+msgid "Purchase email (new user)"
+msgstr "Willkommensemail (neuer User)"
+
+#: include/controller/options/sections/digistore24.php:110
+#: include/controller/options/sections/digistore24.php:131
+msgid ""
+"This email will automatically be sent to customers after every purchase of a "
+"membership product. You can individually change the content of this mail."
+msgstr ""
+"Diese E-mail wird nach jedem Kauf eines Mitglieder-Produkts automatisch an "
+"Kunden versandt. Du kannst den Inhalt dieser Mail beliebig ändern."
+
+#: include/controller/options/sections/digistore24.php:112
+#: include/controller/options/sections/digistore24.php:133
+msgid "User id"
+msgstr "Benutzer"
+
+#: include/controller/options/sections/digistore24.php:112
+#: include/controller/options/sections/digistore24.php:133
+msgid "User login"
+msgstr "Benutzername"
+
+#: include/controller/options/sections/digistore24.php:112
+#: include/controller/options/sections/digistore24.php:133
+#: include/controller/user/profile_system.php:57
+#: templates/single-page-register.php:47 templates/single-page-register.php:52
+msgid "Email"
+msgstr "Email"
+
+#: include/controller/options/sections/digistore24.php:112
+#: include/controller/options/sections/digistore24.php:133
+#: templates/single-page-register.php:56
+msgid "First name"
+msgstr "Vorname"
+
+#: include/controller/options/sections/digistore24.php:112
+#: include/controller/options/sections/digistore24.php:133
+#: templates/single-page-register.php:60
+msgid "Last name"
+msgstr "Nachname"
+
+#: include/controller/options/sections/digistore24.php:112
+#: include/controller/options/sections/digistore24.php:133
+msgid "Course name"
+msgstr "Kursname"
+
+#: include/controller/options/sections/digistore24.php:112
+#: include/controller/options/sections/digistore24.php:133
+msgid "Current date"
+msgstr "Aktuelles Datum"
+
+#: include/controller/options/sections/digistore24.php:114
+msgid ""
+"Hi %first_name%,\n"
+"\n"
+"Congratuliations! Your membership account is ready to go. To get access, "
+"please go to <a href=\"%url%\">%url%</a> and log in with these credentials:\n"
+"\n"
+"email: %email”\n"
+"password: %password%\n"
+"\n"
+"I hope you enjoy %course_name%!\n"
+"\n"
+"All the best,\n"
+"\n"
+"John Doe"
+msgstr ""
+"Hallo %first_name%,\n"
+"\n"
+"Gratulation! Dein Mitgliederkonto ist jetzt fertig. Um Zugriff darauf zu "
+"erhalten, gehe bitte auf <a href=\"%url%\">%url%</a> und logge dich mit "
+"folgenden Daten ein:\n"
+"\n"
+"E-Mail: %email%\n"
+"Passwort: %password%\n"
+"\n"
+"Ich wünsche dir viel Spaß mit %course_name%!\n"
+"\n"
+"Beste Grüße und maximalen Erfolg\n"
+"\n"
+"Max Mustermann"
+
+#: include/controller/options/sections/digistore24.php:118
+msgid "Subject (existing user)"
+msgstr "Betreff"
+
+#: include/controller/options/sections/digistore24.php:127
+msgid "Purchase email (existing user)"
+msgstr "Willkommensemail"
+
+#: include/controller/options/sections/digistore24.php:135
+msgid ""
+"Hi %first_name%,\n"
+"\n"
+"Congratuliations! You have successfully purchased %course_name%! To get "
+"access, please go to <a href=\"%url%\">%url%</a> and log in with your email "
+"and password. In case you forgot your password, please click on “forgot "
+"password”.\n"
+"\n"
+"I hope you enjoy %course_name%!\n"
+"\n"
+"All the best,\n"
+"\n"
+"Jane Doe"
+msgstr ""
+"Hallo %first_name%,\n"
+"\n"
+"Gratulation! Du hast dir %course_name% erfolgreich gesichert! Um Zugriff "
+"darauf zu erhalten, gehe bitte auf <a href=\"%url%\">%url%</a> und logge "
+"dich mit deiner E-Mail Adresse und deinem Passwort ein. Solltest du dein "
+"Passwort nicht mehr wissen, dann verwende bitte auf die “Passwort vergessen” "
+"Funktion.\n"
+"\n"
+"Ich wünsche dir viel Spaß mit deinem Produkt!\n"
+"\n"
+"Beste Grüße und maximalen Erfolg\n"
+"\n"
+"Max Mustermann"
+
+#: include/controller/options/sections/general.php:36
+msgid "General"
+msgstr "Allgemein"
+
+#: include/controller/options/sections/general.php:52
+msgid "Base url"
+msgstr "Mitgliederbereich-URL"
+
+#: include/controller/options/sections/general.php:57
+msgid "Here you can change the website link to access your membership area."
+msgstr ""
+"Hier kannst du den Webseiten-Link ändern, der zu deinem Mitgliederbereich "
+"führt"
+
+#: include/controller/options/sections/general.php:58
+msgid ""
+"Set the URL where your membership area will be available.<br/"
+"><strong>*Caution*:</strong> Your membership area will be visible as soon as "
+"you have inserted your license key."
+msgstr ""
+"Hier kannst du die URL festlegen, auf der dein Mitgliederbereich später "
+"verfügbar sein wird.<br/><strong>*Achtung*:</strong> der Mitgliederbereich "
+"ist erst sichtbar sobald der Lizenzschlüssel eingegeben wurde"
+
+#: include/controller/options/sections/general.php:60
+msgid "/members"
+msgstr "/mitglieder"
+
+#: include/controller/options/sections/general.php:64
+msgid "Allow registration"
+msgstr "Erlaube Registrierung"
+
+#: include/controller/options/sections/general.php:68
+msgid "Choose Yes to enable interested users to create a free account."
+msgstr "Wähle Ja, um interessierten Usern kostenlose Zugänge zu gewähren."
+
+#: include/controller/options/sections/general.php:74
+msgid "Allow to hide unavailable modules and lessons"
+msgstr "Verstecke nicht verfügbare Module und Lektionen"
+
+#: include/controller/options/sections/general.php:84
+msgid "Disallow visit <pre>/wp-admin</pre> for non privileged users"
+msgstr ""
+"Besuch von <pre>/wp-admin</pre> für nicht-privilegierte Nutzer verbieten"
+
+#: include/controller/options/sections/general.php:104
+msgid ""
+"Prevent unauthorized users from logging into or visiting the backend of your "
+"domain."
+msgstr ""
+"Verhindere mit dieser Option, dass sich unberechtigte Nutzer in das Backend "
+"deiner Domain einloggen bzw. darauf zugreifen können."
+
+#: include/controller/options/sections/import.php:36
+msgid "Import"
+msgstr "Importieren"
+
+#: include/controller/options/sections/import.php:52
+msgid "Zip archive with data"
+msgstr "ZIP-Archiv mit Daten"
+
+#: include/controller/options/sections/impressum_agb.php:36
+msgid "Impressum & AGB"
+msgstr "Impressum und AGB"
+
+#: include/controller/options/sections/leaderboard.php:36
+msgid "Leaderboard"
+msgstr "Leaderboard"
+
+#: include/controller/options/sections/leaderboard.php:52
+msgid "Allow leaderboard"
+msgstr "Leaderboard erlauben"
+
+#: include/controller/options/sections/leaderboard.php:61
+msgid "Uploading a profile picture"
+msgstr "Profilbild hochladen"
+
+#: include/controller/options/sections/leaderboard.php:70
+msgid ""
+"Choose a number of points to be given to your subscribers after uploading a "
+"profile picture."
+msgstr ""
+"Wähle eine Punktzahl, die an Mitglieder vergeben wird, nachdem sie ein "
+"Profilbild hochgeladen haben."
+
+#: include/controller/options/sections/leaderboard.php:76
+msgid "Starting the first course"
+msgstr "Starten der ersten Kurses"
+
+#: include/controller/options/sections/leaderboard.php:89
+msgid "Starting a course"
+msgstr "Starten eines Kurses"
+
+#: include/controller/options/sections/leaderboard.php:98
+msgid ""
+"Choose a number of points to be given to your subscribers after starting a "
+"course."
+msgstr ""
+"Wähle eine Punktzahl, die an Mitglieder vergeben wird, nachdem sie einen "
+"Kurs gestartet haben."
+
+#: include/controller/options/sections/leaderboard.php:104
+msgid "Finishing the first lesson"
+msgstr "Abschließen der ersten Lektion"
+
+#: include/controller/options/sections/leaderboard.php:113
+msgid ""
+"Choose a number of points to be given to your subscribers after finishing "
+"their first lesson."
+msgstr ""
+"Wähle eine Punktzahl, die an Mitglieder vergeben wird, nachdem sie ihre "
+"erste Lektion abgeschlossen haben."
+
+#: include/controller/options/sections/leaderboard.php:119
+msgid "Finishing a lesson"
+msgstr "Abschließen einer Lektion"
+
+#: include/controller/options/sections/leaderboard.php:132
+msgid "Finishing the first module"
+msgstr "Abschließen des ersten Moduls"
+
+#: include/controller/options/sections/leaderboard.php:141
+msgid ""
+"Choose a number of points to be given to your subscribers after finishing a "
+"module."
+msgstr ""
+"Wähle eine Punktzahl, die an Mitglieder vergeben wird, nachdem sie ein Modul "
+"abgeschlossen haben."
+
+#: include/controller/options/sections/leaderboard.php:147
+msgid "Finishing a module"
+msgstr "Abschließen eines Moduls"
+
+#: include/controller/options/sections/leaderboard.php:160
+msgid "Finishing the first quiz"
+msgstr "Abschließen des ersten Quiz"
+
+#: include/controller/options/sections/leaderboard.php:173
+msgid "Finishing a quiz"
+msgstr "Abschließen eines Quiz"
+
+#: include/controller/options/sections/leaderboard.php:182
+msgid ""
+"Choose a number of points to be given to your subscribers after finishing a "
+"quiz."
+msgstr ""
+"Wähle eine Punktzahl, die an Mitglieder vergeben wird, nachdem sie ein Quiz "
+"abgeschlossen haben."
+
+#: include/controller/options/sections/leaderboard.php:188
+msgid "Finishing the first course"
+msgstr "Abschließen des ersten Kurses"
+
+#: include/controller/options/sections/leaderboard.php:201
+msgid "Finishing the second course"
+msgstr "Abschließen des zweiten Kurses"
+
+#: include/controller/options/sections/leaderboard.php:214
+msgid "Finishing a course"
+msgstr "Abschließen eines kompletten Kurses"
+
+#: include/controller/options/sections/leaderboard.php:223
+msgid ""
+"Choose a number of points to be given to your subscribers after finishing an "
+"entire course."
+msgstr ""
+"Wähle eine Punktzahl, die an Mitglieder vergeben wird, nachdem sie einen "
+"kompletten Kurs beendet haben."
+
+#: include/controller/options/sections/license.php:36
+msgid "License"
+msgstr "Lizenz"
+
+#: include/controller/options/sections/license.php:70
+msgid "License key"
+msgstr "Lizenzschlüssel"
+
+#: include/controller/options/sections/license.php:76
+msgid ""
+"To use the plugin properly, please fill in your “MemberWunder license key”. "
+"If you want to know where to find it, visit https://memberwunder.com/hilfe"
+msgstr ""
+"Um das Plugin richtig nutzen zu können, trage bitte deinen \"MemberWunder "
+"Lizenzschlüssel\" ein. Wenn du nicht weißt, wo du ihn finden kannst, besuche "
+"https://memberwunder.com/hilfe"
+
+#: include/controller/options/sections/login_page.php:36
+msgid "Login page"
+msgstr "Loginseite"
+
+#: include/controller/options/sections/login_page.php:52
+msgid "Allow to show logo on login page"
+msgstr "Logo auf Login-Seite anzeigen"
+
+#: include/controller/options/sections/login_page.php:56
+msgid "Choose Yes to show logo on login page"
+msgstr "Wähle Ja, um das Logo auf der Login-Seite anzuzeigen"
+
+#: include/controller/options/sections/login_page.php:71
+msgid "Layout type"
+msgstr "Layout Typ"
+
+#: include/controller/options/sections/login_page.php:75
+msgid "Simple"
+msgstr "Einfach"
+
+#: include/controller/options/sections/login_page.php:76
+msgid "Advansed"
+msgstr "Fortgeschritten"
+
+#: include/controller/options/sections/login_page.php:84
+msgid "Courses visibility settings"
+msgstr "Kurs-Sichtbarkeits-Einstellungen"
+
+#: include/controller/options/sections/login_page.php:88
+msgid "Don't show courses"
+msgstr "Kurse nicht anzeigen"
+
+#: include/controller/options/sections/login_page.php:89
+msgid "Show only free courses"
+msgstr "Nur kostenlose Kurse anzeigen"
+
+#: include/controller/options/sections/login_page.php:90
+msgid "Show all courses"
+msgstr "Alle Kurse anzeigen"
+
+#: include/controller/options/sections/login_page.php:91
+msgid "Show only selected courses"
+msgstr "Nur ausgewählte Kurse anzeigen"
+
+#: include/controller/options/sections/login_page.php:103
+msgid "Title"
+msgstr "Titel"
+
+#: include/controller/options/sections/login_page.php:125
+msgid ""
+"The MemberWunder Plugin is the simplest way to build a membership community, "
+"get paying customers and returning revenue. Directly after setting up the "
+"plugin, you have a ready to go membership area. You can upload your own "
+"course videos or use our whitelabel courses. Just try it - it has never been "
+"easier before."
+msgstr ""
+"Das MemberWunder Plugin ermöglicht es dir einfach wie noch nie Mitglieder, "
+"zahlende Kunden und wiederkehrende Umsätze zu generieren. Direkt nach der "
+"Installation des Plugins hast du einen fertigen Mitgliederbereich, kannst "
+"deine eigenen Videos als Kurse hochladen oder bereits erstellte Kurse von "
+"uns verwenden. Probier es aus, nie war es so leicht!"
+
+#: include/controller/options/sections/smtp.php:36
+msgid "Smtp"
+msgstr "SMTP"
+
+#: include/controller/options/sections/social.php:36
+#: include/controller/options/sections/social.php:63
+msgid "Social media"
+msgstr "Social media"
+
+#: include/controller/options/sections/social.php:52
+msgid "Social networks section header"
+msgstr "Social Media Headline"
+
+#: include/controller/options/sections/social.php:57
+msgid ""
+"Here you add the headline for your social share elements. This headline will "
+"be above the social share elements. f.e.: follow us"
+msgstr ""
+"Füge hier die Überschrift für die Social Share Elemente ein. Diese "
+"Überschrift wird oberhalb der Social Share Elemente eingefügt. z.B.: Folge "
+"Uns"
+
+#: include/controller/options/sections/social.php:68
+msgid "Max Mustermann"
+msgstr "John Doe"
+
+#: include/controller/options/sections/social.php:69
+msgid "CEO"
+msgstr "CEO"
+
+#: include/controller/pages.php:94
+msgid "Profile"
+msgstr "Profil"
+
+#: include/controller/pages.php:105 templates/single-page-lostpassword.php:12
+msgid "Lost Password"
+msgstr "Passwort vergessen"
+
+#: include/controller/pages.php:109
+msgid "Reset password"
+msgstr "Passwort"
+
+#: include/controller/profile.php:34
+msgid "Sorry, you are not allowed to edit this user."
+msgstr "Sorry, dir ist es nicht gestattet diesen User zu bearbeiten."
+
+#: include/controller/register.php:19
+msgid "Usernames can only contain lowercase letters (a-z) and numbers."
+msgstr ""
+"Der Benutzername darf ausschließlich Kleinbuchstaben (a-z) und Zahlen (0-9) "
+"enthalten"
+
+#: include/controller/register.php:20
+msgid "Please enter a username."
+msgstr "Bitte gib einen Benutzernamen an"
+
+#: include/controller/register.php:21
+msgid "Sorry, that username is not allowed."
+msgstr "Entschuldige, dieser Benutzername ist nicht erlaubt. "
+
+#: include/controller/register.php:22
+msgid "Username must be at least 4 characters."
+msgstr "Der Benutzername muss mindestens aus 4 Zeichen bestehen."
+
+#: include/controller/register.php:23
+msgid "Username may not be longer than 60 characters."
+msgstr "Der Benutzername darf nicht mehr als 60 Zeichen enthalten."
+
+#: include/controller/register.php:24
+msgid "Sorry, usernames must have letters too!"
+msgstr "Entschuldige, der Benutzername muss auch aus Buchstaben bestehen"
+
+#: include/controller/register.php:25
+msgid "Sorry, that username already exists!"
+msgstr "Entschuldigung, dieser Benutzername ist bereits vergeben"
+
+#: include/controller/register.php:26
+msgid ""
+"That username is currently reserved but may be available in a couple of days."
+msgstr ""
+"Dieser Benutzername ist momentan reserviert, aber eventuell in ein paar "
+"Tagen wieder verfügbar."
+
+#: include/controller/register.php:27
+msgid ""
+"You cannot use that email address to signup. We are having problems with "
+"them blocking some of our email. Please use another email provider."
+msgstr ""
+"Du kannst diese E-Mail-Adresse nicht zur Eintragung verwenden. Dieser "
+"Anbieter blockiert unseren E-Mail-Versand. Bitte verwende einen anderen E-"
+"Mail Anbieter. "
+
+#: include/controller/register.php:28
+msgid "Please enter a valid email address."
+msgstr "Bitte gib eine gültige E-Mail-Adresse an. "
+
+#: include/controller/register.php:29
+msgid "Sorry, that email address is not allowed!"
+msgstr "Entschuldige, diese E-Mail-Adresse ist nicht erlaubt. "
+
+#: include/controller/register.php:30
+msgid "Sorry, that email address is already used!"
+msgstr "Entschuldigung, diese E-Mail Adresse wird bereits verwendet!"
+
+#: include/controller/register.php:31
+msgid ""
+"That email address has already been used. Please check your inbox for an "
+"activation email. It will become available in a couple of days if you do "
+"nothing."
+msgstr ""
+"Diese E-Mail-Adresse wurde schon verwendet. Bitte überprüfe dein E-Mail-"
+"Postfach nach der Aktivierungs-E-Mail von uns. Wenn du nichts machst, wird "
+"diese E-Mail-Adresse in ein paar Tagen wieder verfügbar. "
+
+#: include/controller/register.php:32
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>FEHLER</strong>: Gib einen Benutzernamen ein"
+
+#: include/controller/register.php:33
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>FEHLER</strong>: Es gibt keinen registrierten Benutzer unter dieser "
+"E-Mail-Adresse."
+
+#: include/controller/register.php:34
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>FEHLER</strong>:  Dieser Benutzername ist ungültig, weil er nicht "
+"erlaubte Zeichen enthält. Bitte gib einen gültigen Benutzernamen ein. "
+
+#: include/controller/register.php:35
+msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
+msgstr ""
+"<strong>FEHLER</strong>: Entschuldigung, dieser Benutzername ist nicht "
+"erlaubt."
+
+#: include/controller/register.php:36
+msgid "<strong>ERROR</strong>: Please type your email address."
+msgstr "<strong>FEHLER</strong>: Bitte gib deine E-Mail-Adresse ein."
+
+#: include/controller/register.php:37
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>FEHLER</strong>: Die E-Mail-Adresse ist nicht korrekt."
+
+#: include/controller/register.php:38
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>FEHLER</strong>: Diese E-Mail-Adresse ist bereits vergeben. Bitte "
+"wähle eine andere. "
+
+#: include/controller/register.php:39 include/controller/register.php:163
+msgid "<strong>ERROR</strong>: Please type your first name."
+msgstr "<strong>FEHLER</strong>: Gib deinen Vornamen ein."
+
+#: include/controller/register.php:40 include/controller/register.php:166
+msgid "<strong>ERROR</strong>: Please type your last name."
+msgstr "<strong>FEHLER</strong>: Gib deinen Nachnamen ein."
+
+#: include/controller/register.php:41 include/controller/register.php:169
+msgid "<strong>ERROR</strong>: Please type your password."
+msgstr "<strong>FEHLER</strong>: Gib dein Passwort ein."
+
+#: include/controller/register.php:42 include/controller/register.php:172
+msgid "<strong>ERROR</strong>: Password length must be greater than 5."
+msgstr "<strong>FEHLER</strong>: Passwort muss mehr als 5 Zeichen enthalten."
+
+#: include/controller/register.php:43 include/controller/register.php:175
+msgid "<strong>ERROR</strong>: Password does not match the confirm password."
+msgstr ""
+"<strong>FEHLER</strong>: Passwort und Passwort-Bestätigung stimmen nicht "
+"überein."
+
+#: include/controller/reset.php:107
+msgid "You are already signed in."
+msgstr "Du bist bereits angemeldet"
+
+#: include/controller/reset.php:123
+msgid "Invalid password reset link."
+msgstr "Ungültiger Link zur Passwortrücksetzung"
+
+#: include/controller/reset.php:162
+msgid "The password reset link you used is not valid anymore."
+msgstr "Der Link zum Zurücksetzen deines Passwortes ist nicht mehr gültig"
+
+#: include/controller/reset.php:164
+msgid "The two passwords you entered don't match."
+msgstr "Die Passwörter stimmen nicht überein"
+
+#: include/controller/reset.php:166
+msgid "Sorry, we don't accept empty passwords."
+msgstr "Du musst das Passwortfeld ausfüllen"
+
+#: include/controller/reset.php:170
+msgid "An unknown error occurred. Please try again later."
+msgstr "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es erneut"
+
+#: include/controller/user/login.php:41
+#: include/controller/user/lostpassword.php:40
+msgid "You are already logged in."
+msgstr "Du bist bereits erfolgreich angemeldet."
+
+#: include/controller/user/login.php:45
+#: include/controller/user/lostpassword.php:44
+msgid "Some field is empty."
+msgstr "Ein Feld wurde nicht ausgefüllt."
+
+#: include/controller/user/login.php:50
+#: include/controller/user/lostpassword.php:49
+msgid "There is no user registered."
+msgstr "Es ist kein Benutzer registriert."
+
+#: include/controller/user/login.php:53
+msgid "The password you entered is incorrect."
+msgstr "Dein Passwort ist nicht korrekt."
+
+#: include/controller/user/login.php:72
+msgid "You are successfully logged in."
+msgstr "Du wurdest erfolgreich angemeldet."
+
+#: include/controller/user/lostpassword.php:69
+msgid "Check your email for the password restore instructions."
+msgstr ""
+"Überprüfe dein E-Mail-Postfach. Wir haben dir die Anleitung zur "
+"Passwortrücksetzung zugesendet."
+
+#: include/controller/user/lostpassword.php:76
+msgid "The email could not be sent."
+msgstr "Die E-Mail konnte nicht gesendet werden."
+
+#: include/controller/user/lostpassword.php:114
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+"Jemand hat das Zurücksetzen des Passworts für folgendes Benutzerkonto "
+"angefordert:"
+
+#: include/controller/user/lostpassword.php:116
+#, php-format
+msgid "Username: %s"
+msgstr "Benutzername: %s"
+
+#: include/controller/user/lostpassword.php:117
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Falls dies nicht beabsichtigt war, ignoriere einfach diese E-Mail. Es wird "
+"dann nichts passieren."
+
+#: include/controller/user/lostpassword.php:118
+msgid "To reset your password, visit the following address:"
+msgstr "Um dein Passwort zurückzusetzen, besuche folgende Adresse:"
+
+#: include/controller/user/lostpassword.php:131
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Passwort zurücksetzen"
+
+#: include/controller/user/profile.php:55
+msgid "MY PROFILE"
+msgstr "MEIN PROFIL"
+
+#: include/controller/user/profile.php:57
+msgid "First Name"
+msgstr "Vorname"
+
+#: include/controller/user/profile.php:63
+msgid "Last Name"
+msgstr "Nachname"
+
+#: include/controller/user/profile.php:69
+msgid "Display Name"
+msgstr "Angezeigter Name"
+
+#: include/controller/user/profile.php:75
+msgid "Website"
+msgstr "Webseite"
+
+#: include/controller/user/profile.php:99
+#: include/controller/user/profile_system.php:96
+msgid "You are not logged in."
+msgstr "Du bist nicht angemeldet"
+
+#: include/controller/user/profile.php:102
+msgid "Display name cannot be empty."
+msgstr "Der angezeigte Name muss ausgefüllt werden"
+
+#: include/controller/user/profile.php:195
+#: include/controller/user/profile_system.php:198
+msgid "Something going wrong."
+msgstr "Etwas lief schief. Versuche es erneut"
+
+#: include/controller/user/profile.php:197
+#: include/controller/user/profile_system.php:200
+msgid "You are successfully update profile."
+msgstr "Du hast du dein Profil erfolgreich aktualisiert"
+
+#: include/controller/user/profile_system.php:55
+msgid "Email and Password"
+msgstr "Email und Passwort"
+
+#: include/controller/user/profile_system.php:63
+msgid "Old Password"
+msgstr "Altes Passwort"
+
+#: include/controller/user/profile_system.php:73
+#: templates/single-page-register.php:68
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: include/controller/user/profile_system.php:99
+msgid "Invalid email."
+msgstr "Ungültige E-Mail-Adresse"
+
+#: include/controller/user/profile_system.php:102
+msgid "Invalid old password."
+msgstr "Ungültiges altes Passwort"
+
+#: include/controller/user/profile_system.php:105
+msgid "New passwords do not match."
+msgstr "Neue Passwörter stimmen nicht überein."
+
+#: include/data_fields.php:44
+msgid "Featured image"
+msgstr "Bild"
+
+#: include/functions.php:215
+msgid "Day"
+msgstr "Tag"
+
+#: include/functions.php:216
+msgid "Hour"
+msgstr "Stunde"
+
+#: include/functions.php:217
+msgid "Minute"
+msgstr "Minute"
+
+#: include/functions.php:217
+msgid "Minutes"
+msgstr "Minuten"
+
+#: include/functions.php:218
+msgid "Second"
+msgstr "Sekunde"
+
+#: include/functions.php:218
+msgid "Seconds"
+msgstr "Sekunden"
+
+#: include/functions.php:356
+msgid "Add Media"
+msgstr "Medien hinzufügen"
+
+#: include/functions.php:359
+msgid "Visual"
+msgstr "Visuell"
+
+#: include/functions.php:360
+msgid "Text"
+msgstr "Text"
+
+#: include/functions.php:379
+msgid "Remove lesson"
+msgstr "Lektion löschen"
+
+#: include/functions.php:383
+msgid "Lesson title"
+msgstr "Lektion Name"
+
+#: include/functions.php:389
+msgid "Days before this lesson will be available"
+msgstr "Tage bis die Lektion verfügbar ist"
+
+#: include/functions.php:403
+msgid "Add quiz"
+msgstr "Quiz hinzufügen"
+
+#: include/functions.php:419
+msgid "As many times as the user wants"
+msgstr "So oft, wie der Benutzer will"
+
+#: include/functions.php:420
+msgid "Once per day"
+msgstr "Einmal am Tag"
+
+#: include/functions.php:421
+msgid "Once per month"
+msgstr "Ein Mal im Monat"
+
+#: include/functions.php:428
+msgid "Remove quiz"
+msgstr "Quiz löschen"
+
+#: include/functions.php:432
+msgid "Quiz title"
+msgstr "Quiz Name"
+
+#: include/functions.php:438
+msgid "Threshold"
+msgstr "Schwelle"
+
+#: include/functions.php:441
+msgid "%"
+msgstr "%"
+
+#: include/functions.php:445
+msgid "Certificate"
+msgstr "Zertifikat"
+
+#: include/functions.php:452
+msgid "Retake"
+msgstr "Wiederholen"
+
+#: include/functions.php:470
+msgid "Add question"
+msgstr "Frage hinzufügen"
+
+#: include/functions.php:485
+msgid "Answer"
+msgstr "Antwort"
+
+#: include/functions.php:497
+msgid "Correct answer"
+msgstr "Korrekte Antwort"
+
+#: include/functions.php:509
+msgid "One answer"
+msgstr "Eine Antwort"
+
+#: include/functions.php:510
+msgid "One answer with image"
+msgstr "Eine Antwort mit Bild"
+
+#: include/functions.php:511
+msgid "Multiple answers"
+msgstr "Mehrfache Antworten"
+
+#: include/functions.php:512
+msgid "Multiple answers with image"
+msgstr "Mehrfache Antworten mit Bild"
+
+#: include/functions.php:519
+msgid "Remove question"
+msgstr "Frage löschen"
+
+#: include/functions.php:523
+msgid "Question text"
+msgstr "Fragetext"
+
+#: include/functions.php:529
+msgid "Type of answer"
+msgstr "Art der Antwort"
+
+#: include/functions.php:543
+msgid "Add answer"
+msgstr "Antwort hinzufügen"
+
+#: include/functions.php:558
+msgid "Remove module"
+msgstr "Modul löschen"
+
+#: include/functions.php:563
+msgid "Module title"
+msgstr "Modulname"
+
+#: include/functions.php:570
+msgid "Days before this module will be available"
+msgstr "Tage bis das Modul verfügbar ist"
+
+#: include/functions.php:579
+msgid ""
+"Fill in an overview image for the module here. Optimal size 000x000 Pixel"
+msgstr ""
+"Trage hier ein Übersichts-Bild für das Modul ein. Optimale Größe 000x000 "
+"Pixel"
+
+#: include/functions.php:580
+msgid "Module image"
+msgstr "Modulbild"
+
+#: include/functions.php:583
+msgid "OR"
+msgstr "ODER"
+
+#: include/functions.php:589
+msgid "Module description"
+msgstr "Modulbeschreibung"
+
+#: include/functions.php:593
+msgid "Lessons"
+msgstr "Lektionen"
+
+#: include/functions.php:601
+msgid "Add lesson"
+msgstr "Lektion hinzufügen"
+
+#: include/functions.php:802
+msgid "Onetime"
+msgstr "Einmal"
+
+#: include/functions.php:802
+msgid "Yearly"
+msgstr "Jährlich"
+
+#: include/functions.php:802
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: include/functions.php:840
+msgid "netto"
+msgstr "netto"
+
+#: include/functions.php:842
+msgid "brutto"
+msgstr "brutto"
+
+#: include/functions.php:846 templates/single-course-free-start.php:19
+#: templates/single-course-no-authorized.php:19
+msgid "Free"
+msgstr "Frei"
+
+#: include/helpers/template/general.php:21
+msgid "Memberwunder.com"
+msgstr "MemberWunder.com"
+
+#: include/mapper/lesson.php:533 include/mapper/lesson.php:567
+msgid "Error marking lesson as done"
+msgstr "Fehler beim Markieren einer Lektion als \"Erledigt\""
+
+#: include/mapper/lesson.php:587 include/mapper/lesson.php:633
+msgid "Error marking quiz as taken"
+msgstr "Fehler beim Markieren eines Quizzes als \"Absolviert\""
+
+#: include/mapper/lesson.php:651
+msgid "Error getting taken quiz"
+msgstr "Fehler beim Absolvieren eines Quizzes"
+
+#: include/services/loader/courses.php:60
+msgid ""
+"Here you can upload our <strong>sample course</strong> to your membership "
+"area. Feel free to fully customize your membership area with our demo "
+"content. To install the demo content, click on the Button '<strong>Upload</"
+"strong>'."
+msgstr ""
+"Hier kannst du dir <strong>Beispielinhalte</strong> in deinen "
+"Mitgliederbereich hochladen. So siehst du wie, ein fertig eingerichteter "
+"Mitgliederbereich aussehen würde. Du kannst den Beispielinhalt gerne an "
+"deine Wünsche anpassen. Um den Beispielinhalt hochzuladen Klicke auf den "
+"'<strong>Upload</strong>'-Button."
+
+#: include/services/loader/courses.php:69
+msgid "Upload"
+msgstr "Upload"
+
+#: include/services/loader/courses.php:93
+msgid "You have not selected the right action or your action is invalid."
+msgstr ""
+"Diese Aktion ist nicht gültig oder die die falschen Aktion wurde gewählt."
+
+#: include/services/loader/courses.php:98
+msgid "We have successfully loaded your data."
+msgstr "Wir haben die Daten erfolgreich geladen."
+
+#: include/services/loader/courses.php:112
+#, php-format
+msgid "Error: %s"
+msgstr "Fehler: %s"
+
+#: include/services/loader/courses.php:128
+msgid ""
+"You have successfully installed our sample course to your membership area. "
+"You can now fully customize it and exchange it with your content."
+msgstr ""
+"Du hast die Beispielinhalte erfolgreich installiert. Du kannst sie nun "
+"anpassen und deine eigenen Inhalte hinzufügen."
+
+#: include/services/smtp.php:35
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr "Bitte trage eine gültige E-mail Adresse in das \"FROM\"-Feld ein."
+
+#: include/services/smtp.php:54
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr "Bitte trage einen gültigen Port in das \"SMTP Port\"-Feld ein."
+
+#: include/services/smtp.php:65
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: include/services/smtp.php:67
+msgid "Settings are not saved."
+msgstr "Einstellungen nicht gespeichert."
+
+#: include/services/smtp.php:84
+msgid "From Email Address"
+msgstr "Von E-Mail-Adresse"
+
+#: include/services/smtp.php:89
+msgid "This email address will be used in the 'From' field."
+msgstr "Diese E-Mail-Adresse wird im \"FROM\"-Feld genutzt."
+
+#: include/services/smtp.php:93
+msgid "From Name"
+msgstr "From Name"
+
+#: include/services/smtp.php:96
+msgid "This text will be used in the 'FROM' field"
+msgstr "Dieser Text wird im \"FROM\"-Feld genutzt."
+
+#: include/services/smtp.php:100
+msgid "SMTP Host"
+msgstr "SMTP Host"
+
+#: include/services/smtp.php:103
+msgid "Your mail server"
+msgstr "Dein Mailserver"
+
+#: include/services/smtp.php:107
+msgid "Type of Encryption"
+msgstr "Art der Verschlüsselung"
+
+#: include/services/smtp.php:109
+msgid "None"
+msgstr "Keine"
+
+#: include/services/smtp.php:110
+msgid "SSL"
+msgstr "SSL"
+
+#: include/services/smtp.php:111
+msgid "TLS"
+msgstr "TLS"
+
+#: include/services/smtp.php:112
+msgid "For most servers SSL is the recommended option"
+msgstr "Für die meisten Server ist SSL die empfohlene Option"
+
+#: include/services/smtp.php:116
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: include/services/smtp.php:122
+msgid "The port to your mail server"
+msgstr "Der Port zu deinem Mailserver"
+
+#: include/services/smtp.php:126
+msgid "SMTP Authentication"
+msgstr "SMTP Authentifizierung"
+
+#: include/services/smtp.php:130
+msgid "This options should always be checked 'Yes'"
+msgstr "Diese Optionen sollte immer mit \"Ja\" versehen sein."
+
+#: include/services/smtp.php:134
+msgid "SMTP username"
+msgstr "SMTP Nutzername"
+
+#: include/services/smtp.php:137
+msgid "The username to login to your mail server"
+msgstr "Der Nutzername, um dich beim Mailserver einzuloggen"
+
+#: include/services/smtp.php:141
+msgid "SMTP Password"
+msgstr "SMTP Passwort"
+
+#: include/services/smtp.php:144
+msgid "The password to login to your mail server"
+msgstr "Das Passwort, um dich beim Mailserver einzuloggen"
+
+#: include/services/smtp.php:152
+msgid "Testing And Debugging Settings"
+msgstr "Einstellungen testen"
+
+#: include/services/smtp.php:154
+msgid "Wait..."
+msgstr "Warte..."
+
+#: include/services/smtp.php:159
+msgid "To"
+msgstr "Zu"
+
+#: include/services/smtp.php:165
+msgid "Enter the recipient's email address"
+msgstr "Gebe hier die Empfänger E-Mail Adresse ein"
+
+#: include/services/smtp.php:176
+msgid "Enter a subject for your message"
+msgstr "Gebe hier den E-Mail Betreff ein"
+
+#: include/services/smtp.php:180
+msgid "Message"
+msgstr "Nachricht"
+
+#: include/services/smtp.php:187
+msgid "Write your email message"
+msgstr "Gebe hier deine Nachricht ein"
+
+#: include/services/smtp.php:195
+msgid "Send Test Email"
+msgstr "Test Nachricht senden"
+
+#: include/services/smtp.php:393
+msgid "Test mail was sent"
+msgstr "Test Nachricht wurde versendet"
+
+#: include/services/smtp.php:403
+msgid "Please enter a valid email address in the recipient email field."
+msgstr "Bitte trage eine gültige E-Mail-Adresse als Empfänger ein. "
+
+#: include/services/smtp.php:412
+msgid "Please configure your SMTP credentials"
+msgstr "Bitte konfiguriere deine SMTP Einstellungen"
+
+#: include/services/smtp.php:414
+msgid "Mail successfully sent"
+msgstr "Nachricht erfolgreich versendet"
+
+#: include/services/smtp.php:414
+msgid "Mail couldn't be sent successfully"
+msgstr "Nachricht konnte nicht versendet werden"
+
+#: memberwunder.php:160
+msgid ""
+"On your site uses plugin MemberWunder PRO. If you want activate MemberWunder "
+"FREE, please deactivate PRO version before."
+msgstr ""
+"Auf deiner Seite ist das Plugin MemberWunder PRO noch aktiv. Wenn du "
+"MemberWunder FREE aktivieren möchtest, deaktiviere zuerst MemberWunder PRO."
+
+#: memberwunder.php:160 memberwunder.php:173
+msgid "Plugin Activation Error"
+msgstr "Fehler beim Aktivieren des Plugins"
+
+#: memberwunder.php:171
+#, php-format
+msgid ""
+"<p>The <strong>MemberWunder</strong> plugin requires %s version %s or "
+"greater.</p>"
+msgstr ""
+"<p>Das <strong>MemberWunder</strong> Plugin benötigt %s version %s oder "
+"höher.</p>"
+
+#: templates/content-lesson-available.php:13
+#: templates/content-lesson-done.php:23
+msgid "Return to previous lesson"
+msgstr "Vorherige Lektion"
+
+#: templates/content-lesson-available.php:18 templates/content-lesson.php:107
+msgid "Lesson done"
+msgstr "Lektion abgeschlossen"
+
+#: templates/content-lesson-available.php:23
+#: templates/content-lesson-done.php:28
+msgid "Move on to the next lesson"
+msgstr "Nächste Lektion"
+
+#: templates/content-lesson-available.php:34
+msgid "Course progress"
+msgstr "Kursfortschritt"
+
+#: templates/content-lesson-done.php:16
+msgid "CONGRATULATIONS"
+msgstr "GRATULATION"
+
+#: templates/content-lesson-done.php:17
+#, php-format
+msgid "You have completed the lesson &quot;%s&quot;"
+msgstr "Du hast &quot;%s&quot; erfolgreich abgeschlossen"
+
+#: templates/content-lesson-locked.php:11
+#, php-format
+msgid "You have to finish %s before you can continue with this module."
+msgstr ""
+"Du musst zuerst das Modul %s abschließen, bevor du mit dem nächsten Modul "
+"beginnen kannst."
+
+#: templates/content-lesson-not-available.php:5
+#, php-format
+msgid "The lesson will be available %s"
+msgstr "Die Lektion ist verfügbar in %s"
+
+#: templates/content-lesson-quiz-taken.php:44
+msgid "You have completed quiz and your result is"
+msgstr "Du hast das Quiz abgeschlossen und dein Ergebnis lautet"
+
+#: templates/content-lesson-quiz-taken.php:44
+msgid "You have failed quiz. Try again later. Your result is"
+msgstr ""
+"Du hast das Quiz nicht bestanden. Versuche es später noch einmal. Dein "
+"Ergebnis ist"
+
+#: templates/content-lesson-quiz-taken.php:52
+msgid "Share"
+msgstr "Teilen"
+
+#: templates/content-lesson-quiz-taken.php:58
+msgid "Download"
+msgstr "Herunterladen"
+
+#: templates/content-lesson-quiz-taken.php:63
+#: templates/content-lesson-quiz-taken.php:66
+#: templates/content-lesson-quiz.php:72 templates/content-lesson-quiz.php:75
+#, php-format
+msgid "Warning: You can only redo this quiz after %s"
+msgstr "Warnung: Du kannst dieses Quiz nur nach %s wiederholen"
+
+#: templates/content-lesson-quiz-taken.php:63
+#: templates/content-lesson-quiz.php:72
+msgid "24 hours"
+msgstr "24 Stunden"
+
+#: templates/content-lesson-quiz-taken.php:66
+#: templates/content-lesson-quiz.php:75
+msgid "1 month"
+msgstr "1 Monat"
+
+#: templates/content-lesson-quiz-taken.php:75
+msgid "Retake quiz"
+msgstr "Quiz wiederholen"
+
+#: templates/content-lesson-quiz-taken.php:79
+msgid "Processed to the next lesson"
+msgstr "Mit der nächsten Lektion weitermachen"
+
+#: templates/content-lesson-quiz.php:21
+msgid "Back to the lesson"
+msgstr "Zurück zur Lektion"
+
+#: templates/content-lesson-quiz.php:68
+msgid "Skip quiz"
+msgstr "Quiz überspringen"
+
+#: templates/content-lesson-quiz.php:68
+msgid "(continue later)"
+msgstr "(später weitermachen)"
+
+#: templates/content-lesson-quiz.php:69
+msgid "Confirm answers"
+msgstr "Antwort bestätigen"
+
+#: templates/content-lesson-quiz.php:69
+msgid "(and see results)"
+msgstr "(Resultate ansehen)"
+
+#: templates/content-lesson.php:42
+msgid "Back to modules"
+msgstr "Zurück zur Modulübersicht"
+
+#: templates/content-lesson.php:63
+msgid "Previous"
+msgstr "Zurück"
+
+#: templates/content-lesson.php:66
+msgid "DONE"
+msgstr "ERLEDIGT"
+
+#: templates/content-lesson.php:69
+msgid "Next"
+msgstr "Weiter"
+
+#: templates/content-lesson.php:74
+msgid "LESSONS"
+msgstr "LEKTIONEN"
+
+#: templates/layout/footer.php:5
+msgid "FOLLOW US"
+msgstr "FOLGE UNS"
+
+#: templates/layout/head.php:43
+#, php-format
+msgid "I have completed quiz and my result is %s"
+msgstr "Ich habe das Quiz beendet und mein Ergebnis ist %s"
+
+#: templates/layout/header-login.php:36
+msgid "Don't have an account?"
+msgstr "Du hast noch keinen Account?"
+
+#: templates/layout/header-login.php:37
+msgid "Get started"
+msgstr "Jetzt durchstarten!"
+
+#: templates/layout/header.php:50
+msgid "Logout"
+msgstr "Logout"
+
+#: templates/layout/leaderboard-tabs.php:2
+msgid "Overall"
+msgstr "Gesamt"
+
+#: templates/layout/leaderboard-tabs.php:3
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: templates/layout/leaderboard-tabs.php:4
+msgid "Personal"
+msgstr "Persönlich"
+
+#: templates/reset.php:6
+msgid "Pick a New Password"
+msgstr "Gib dein neues Passwort ein"
+
+#: templates/reset.php:25
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: templates/reset.php:31
+msgid "Repeat new password"
+msgstr "Passwort bestätigen"
+
+#: templates/reset.php:39
+msgid "Reset Password"
+msgstr "Passwort vergessen"
+
+#: templates/single-course-free-start.php:29
+msgid "Start"
+msgstr " Start"
+
+#: templates/single-course.php:44
+msgid "MODULES"
+msgstr "MODULE"
+
+#: templates/single-course.php:90
+#, php-format
+msgid "%s hr"
+msgid_plural "%s hrs"
+msgstr[0] "%s Stunde"
+msgstr[1] "%s Stunden"
+
+#: templates/single-course.php:109
+msgid "YOUR PROGRESS"
+msgstr "DEIN FORTSCHRITT"
+
+#: templates/single-page-courses.php:28
+msgid "COURSES"
+msgstr "KURSE"
+
+#: templates/single-page-courses.php:31
+msgid "My courses"
+msgstr "Erworbene Kurse"
+
+#: templates/single-page-courses.php:32
+msgid "All courses"
+msgstr "Alle Kurse"
+
+#: templates/single-page-dashboard.php:57
+msgid "Completed lessons"
+msgstr "Abgeschlossene Lektionen"
+
+#: templates/single-page-dashboard.php:61
+msgid "Unfinished lessons"
+msgstr "Offene Lektionen"
+
+#: templates/single-page-dashboard.php:66
+msgid "Browse courses"
+msgstr "Kurse ansehen"
+
+#: templates/single-page-dashboard.php:122
+msgid "MY COURSES"
+msgstr "ERWORBENE KURSE"
+
+#: templates/single-page-dashboard.php:165
+msgid "OTHER COURSES"
+msgstr "ANDERE KURSE"
+
+#: templates/single-page-dashboard.php:165
+msgid "ALL COURSES"
+msgstr "ALLE KURSE"
+
+#: templates/single-page-profile.php:14
+msgid "PROFILE SETTINGS"
+msgstr "PROFIL EINSTELLUNGEN"
+
+#: templates/single-page-profile.php:53
+msgid "My data"
+msgstr "Meine Angaben"
+
+#: templates/single-page-profile.php:56
+msgid "Access data"
+msgstr "Zugangsdaten"
+
+#: templates/single-page-register.php:10
+msgid "SIGN IN"
+msgstr "ANMELDEN"
+
+#: templates/single-page-register.php:43
+msgid "Username"
+msgstr "Benutzername"
+
+#: templates/single-page-register.php:76
+msgid "Sing up"
+msgstr "Anmelden"
+
+#: templates/single-page-register.php:81
+#, php-format
+msgid "%s is your new username"
+msgstr "%s ist dein neuer Benutzername"
+
+#: templates/single-page-register.php:82
+msgid ""
+"But, before you can start using your new username, <strong>you must activate "
+"it</strong>."
+msgstr ""
+"Bevor du deinen neuen Benutzernamen verwenden kannst, <strong>musst du "
+"diesen aktivieren</strong>"
+
+#: templates/single-page-register.php:83
+#, php-format
+msgid "Check your inbox at %s and click the link given."
+msgstr "Überprüfe dein %s E-Mail-Postfach und klicke in der E-Mail von uns. "
+
+#: templates/single-page-register.php:84
+msgid ""
+"If you do not activate your username within two days, you will have to sign "
+"up again."
+msgstr ""
+"Wenn du deinen Benutzernamen nicht innerhalb der nächsten 2 Tage aktivierst, "
+"musst du dich erneut anmelden. "
+
+#~ msgid "Orders"
+#~ msgstr "Bestellübersicht"
+
+#~ msgid ""
+#~ "Here you can find orders of your subscribers. You can either create or "
+#~ "delete orders here."
+#~ msgstr ""
+#~ "Hier findest du die Bestellungen deiner Mitglieder. Du kannst hier "
+#~ "Bestellungen erstellen oder löschen."
+
+#~ msgid "Add order"
+#~ msgstr "Bestellung hinzufügen"
+
+#~ msgid "Search orders"
+#~ msgstr "Bestellung suchen"
+
+#~ msgid "Leaderboard overall"
+#~ msgstr "Leaderboard Gesamt"
+
+#~ msgid "Leaderboard weekly"
+#~ msgstr "Leaderboard Wöchentlich"
+
+#~ msgid "Leaderboard personal"
+#~ msgstr "Leaderboard Persönlich"
+
+#~ msgid "Sales"
+#~ msgstr "Verkäufe"
+
+#~ msgid "Thank You!"
+#~ msgstr "Danke!"
+
+#~ msgid "Check for updates"
+#~ msgstr "Nach Updates suchen"
+
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "Das %s Plugin ist auf dem aktuellsten Stand."
+
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "Eine neue Version des %s Plugin ist verfügbar."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "Unbekannter Update-Prüfer Status \"%s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "Es ist kein Changelog verfügbar."
+
+#~ msgid "Error while inserting data"
+#~ msgstr "Fehler beim Eingeben der Daten"
+
+#~ msgid "Error making purchase"
+#~ msgstr "Fehler beim Einkauf"
+
+#~ msgid "This key is invalid"
+#~ msgstr "Dieser Schlüssel ist ungültig"
+
+#~ msgid "This key is invalid for this domain"
+#~ msgstr "Dieser Schlüssel ist für diese Domain ungültig"
+
+#~ msgid "No purchases avaliable."
+#~ msgstr "Keine Käufe verfügbar."
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Y/m/d g:i:s a"
+#~ msgstr "Y/m/d g:i:s a"
+
+#~ msgid "%s ago"
+#~ msgstr "vor %s"
+
+#~ msgid "Y/m/d"
+#~ msgstr "Y/m/d"
+
+#~ msgid "Order id"
+#~ msgstr "Bestell ID"
+
+#~ msgid "User"
+#~ msgstr "Benutzer"
+
+#~ msgid "Course"
+#~ msgstr "Kurs"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Order date"
+#~ msgstr "Bestelldatum"
+
+#~ msgid "Order(s) was deleted."
+#~ msgstr "Bestellung(en) wurde(n) gelöscht."
+
+#~ msgid "Link your product successfully with the payment provider Digistore24"
+#~ msgstr ""
+#~ "Verlinke dein Produkt erfolgreich mit dem Zahlungsanbieter Digistore24"
+
+#~ msgid "Sales page type"
+#~ msgstr "Verkaufsseite"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "Custom"
+#~ msgstr "Benutzerdefiniert"
+
+#~ msgid "Digistore24 products"
+#~ msgstr "Produkte von Digistore24"
+
+#~ msgid "No products."
+#~ msgstr "Keine Produkte."
+
+#~ msgid "Sales page leads to"
+#~ msgstr "Button auf Verkaufsseite leitet auf"
+
+#~ msgid "Thank you page URL"
+#~ msgstr "Dankeseite-URL"
+
+#~ msgid "Sales page URL"
+#~ msgstr "Verkaufsseiten-URL"
+
+#~ msgid "Sales text"
+#~ msgstr "Produktbeschreibung"
+
+#~ msgid ""
+#~ "List the advantages of your courses here and give a first sneak peak of "
+#~ "the content."
+#~ msgstr ""
+#~ "Liste die Vorteile deiner Kurse auf und gebe eine Vorschau auf den Inhalt."
+
+#~ msgid "Advantages"
+#~ msgstr "Vorteile"
+
+#~ msgid "Please enter it here"
+#~ msgstr "Bitte hier eingeben"
+
+#~ msgid "Add new order"
+#~ msgstr "Bestellung hinzufügen"
+
+#~ msgid "Optional"
+#~ msgstr "Optional"
+
+#~ msgid "Active"
+#~ msgstr "Aktiv"
+
+#~ msgid "Edit order"
+#~ msgstr "Bestellung anpassen"
+
+#~ msgid "Order was saved successfully"
+#~ msgstr "Bestellung erfolgreich gespeichert"
+
+#~ msgid "FREE"
+#~ msgstr "Frei"
+
+#~ msgid "LEADERBOARD"
+#~ msgstr "LEADERBOARD"
+
+#~ msgid "Rating"
+#~ msgstr "Rang"
+
+#~ msgid "Completed modules"
+#~ msgstr "Abgeschlossene Module"
+
+#~ msgid "Completed courses"
+#~ msgstr "Abgeschlossene Kurse"
+
+#~ msgid "Points in total"
+#~ msgstr "Gesamtpunktzahl"
+
+#~ msgid "Uploaded profile picture first time"
+#~ msgstr "Erstmalig hochgeladenes Profilbild"
+
+#~ msgid "Purchase for %s"
+#~ msgstr "Kauf für %s"
+
+#~ msgid "THANK YOU FOR PURCHASING COURSE!"
+#~ msgstr "VIELEN DANK FÜR DEINE BESTELLUNG"
+
+#~ msgid "This product was purchased through DigiStore24."
+#~ msgstr "Die Abbuchung erfolgt durch DigiStore24!"
+
+#~ msgid "You will receive your access to the members area by e-mail."
+#~ msgstr "Deine Zugangsdaten zum Mitgliederbereich erhältst du per E-Mail."
+
+#~ msgid "Open course"
+#~ msgstr "Offener Kurs"
+
+#~ msgid "/mitglieder"
+#~ msgstr "/members"
+
+#~ msgid "Invalid password."
+#~ msgstr "Ungültiges Passwort"
+
+#~ msgid "MY LINKS"
+#~ msgstr "MEINE LINKS"
+
+#~ msgid ""
+#~ "Error creating custom template. Ensure that your upload dir is writable."
+#~ msgstr ""
+#~ "Fehler beim Erstellen des individuellen templates. Stelle sicher, dass "
+#~ "der Upload Ordner nicht schreibgeschützt ist. "
+
+#~ msgid "Button text color"
+#~ msgstr "Schriftfarbe Buttons"
+
+#~ msgid "Change the text color of buttons here"
+#~ msgstr "Ändere hier die Schriftfarbe von Buttons"
+
+#~ msgid "Show courses on login page"
+#~ msgstr "Kurse auf Login-Seite anzeigen"
+
+#~ msgid "Choose Yes to make created courses visible on login page."
+#~ msgstr ""
+#~ "Wähle Ja, um erstellte Kurse auf der Login-Seite sichtbar zu machen."
+
+#~ msgid "Digistore24 is not configured"
+#~ msgstr "Digistore24 ist nicht konfiguriert"
+
+#~ msgid "Create a new product in Digistore24"
+#~ msgstr "Erstelle ein neues Produkt in Digistore24"
+
+#~ msgid "New product"
+#~ msgstr "Neues Produkt anlegen"
+
+#~ msgid "Update product"
+#~ msgstr "Produkt aktualisieren"
+
+#~ msgid "Create a short description of your new product"
+#~ msgstr "Erstelle eine kurze Beschreibung deines neuen Produkts"
+
+#~ msgid "Is shown on the digistore24 order form"
+#~ msgstr "Wird auf dem Digistore24 Bestellformular angezeigt"
+
+#~ msgid "Sends the login data automatically to your customer"
+#~ msgstr "Sendet die Logindaten automatisch an deine Kunden"
+
+#~ msgid "User password"
+#~ msgstr "Passwort"
+
+#~ msgid "Choose the billing plan of your courses as e.g. installment plan"
+#~ msgstr ""
+#~ "Wähle den Zahlungsplan für deine Kurse, z.B. wiederkehrende Zahlungen."
+
+#~ msgid "Payment plan"
+#~ msgstr "Zahlungsplan"
+
+#~ msgid "Monthly subscription"
+#~ msgstr "Monatliche Zahlung"
+
+#~ msgid "First payment"
+#~ msgstr "Erste Zahlung"
+
+#~ msgid "Following payments"
+#~ msgstr "Folgende Zahlungen"
+
+#~ msgid "Tax"
+#~ msgstr "Umsatzsteuerregelung"
+
+#~ msgid "VAT is included"
+#~ msgstr "inkl. Umsatzsteue"
+
+#~ msgid "VAT will be added"
+#~ msgstr "zzgl. Umsatzsteuer"
+
+#~ msgid "or"
+#~ msgstr "oder"
+
+#~ msgid "Product image"
+#~ msgstr "Produktbild"
+
+#~ msgid ""
+#~ "width from 100 to 500 pixels, heigth from 100 to 2000 pixels, max 2000 "
+#~ "kb. GIF, JPG and PNG files only."
+#~ msgstr ""
+#~ "Breite von 100 bis 500 Pixeln, Höhe von 100 bis 2000 Pixel. Maximal "
+#~ "2000kb. GIF, JPG, PNG sind erlaubt."
+
+#~ msgid "Digistore24 integration"
+#~ msgstr "Digistore24 Verknüpfung"
+
+#~ msgid "Return to previous module"
+#~ msgstr "Vorheriges Modul"
+
+#~ msgid "Move on to the next module"
+#~ msgstr "Nächstes Modul"
+
+#~ msgid "days"
+#~ msgstr "Tage"
+
+#~ msgid "hours"
+#~ msgstr "Stunden"
+
+#~ msgid "Days before available next lesson"
+#~ msgstr "Tage bis die nächste Lektion freigeschalten wird"
+
+#~ msgid "Allow to show locked lessons and modules as gray"
+#~ msgstr "Logo auf Login-Seite anzeigen"
+
+#, fuzzy
+#~ msgid "You are already successfully logged."
+#~ msgstr "Du bist bereits angemeldet"
+
+#~ msgid "Possible reason: your host may have disabled the mail() function."
+#~ msgstr ""
+#~ "Mögliche Ursache: Ihr Host könnte die Funktion mail() deaktiviert haben."
+
+#~ msgid ""
+#~ "Your session has expired. Please log in to continue where you left off."
+#~ msgstr ""
+#~ "Deine Session ist abgelaufen. Bitte logge dich ein, um fortzufahren."
+
+#~ msgid "User registration is currently not allowed."
+#~ msgstr "Registrierung ist momentan nicht erlaubt."
+
+#~ msgid "Check your email for the confirmation link."
+#~ msgstr "Schau in dein Postfach, um den Bestätigungslink zu erhalten."
+
+#~ msgid "Registration complete. Please check your email."
+#~ msgstr "Registrierung komplett. Schau in dein Postfach."
+
+#~ msgid ""
+#~ "<strong>You have successfully updated WordPress!</strong> Please log back "
+#~ "in to see what&#8217;s new."
+#~ msgstr ""
+#~ "<strong> Du hast Wordpress erfolgreich upgedated!</strong> Bitte logge "
+#~ "dich ein, um zu sehen, was es Neues gibt."
+
+#~ msgid "<strong>ERROR</strong>: The username field is empty."
+#~ msgstr "<strong>FEHLER</strong>: Das Feld \"Benutzername\" ist leer."
+
+#~ msgid "<strong>ERROR</strong>: The password field is empty."
+#~ msgstr "<strong>FEHLER</strong>: Das Feld \"Passwort\" ist leer."
+
+#~ msgid "<strong>ERROR</strong>: Invalid username or email."
+#~ msgstr "<strong>FEHLER</strong>: Ungültiger Username oder Email."
+
+#~ msgid "<strong>ERROR</strong>: Invalid username."
+#~ msgstr "<strong>FEHLER</strong>: Ungültiger Username."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: The password you entered for the email address %s "
+#~ "is incorrect."
+#~ msgstr ""
+#~ "<strong>FEHLER</strong>: Das eingegebene Passwort für die Email-Adresse "
+#~ "%s ist nicht korrekt."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: There is no user registered with that email "
+#~ "address."
+#~ msgstr ""
+#~ "<strong>FEHLER</strong>: Es gibt keinen registrierten User unter dieser "
+#~ "Email-Adresse."
+
+#~ msgid "<strong>ERROR</strong>: Enter a username or email address."
+#~ msgstr "<strong>FEHLER</strong>: Gebe Username oder Email-Adresse ein."
+
+#~ msgid ""
+#~ "Your password reset link appears to be invalid. Please request a new link "
+#~ "below."
+#~ msgstr ""
+#~ "Dein Passwort-Wiederherstellungs-Link scheint ungültig zu sein. Bitte "
+#~ "fordere unten einen neuen an."
+
+#~ msgid ""
+#~ "Your password reset link has expired. Please request a new link below."
+#~ msgstr ""
+#~ "Dein Passwort-Wiederherstellungs-Link ist abgelaufen. Bitte fordere unten "
+#~ "einen neuen an."
+
+#~ msgid "Klick-Tipp"
+#~ msgstr "Klick-Tipp"
+
+#~ msgid "Unknown order ID"
+#~ msgstr "Unbekannte Bestellnummer"
+
+#~ msgid "Course not found"
+#~ msgstr "Kurs nicht gefunden"
+
+#~ msgid "Course product not found"
+#~ msgstr "Kursprodukt nicht gefunden"
+
+#~ msgid "Product ID mismatch"
+#~ msgstr "Produkt-ID-Mismatch"
+
+#~ msgid "Buyer info not found"
+#~ msgstr "Käuferinfo nicht gefunden"
+
+#~ msgid ""
+#~ "Fill in you Klick-Tipp API key here. If you want to know where to find "
+#~ "it, visit https://www.klick-tipp.com/handbuch/creating-an-api-key"
+#~ msgstr ""
+#~ "Füge hier deinen Klick-Tipp API key ein. Wenn du nicht weißt, wo du ihn "
+#~ "findest, besuche https://www.klick-tipp.com/handbuch/creating-an-api-key"
+
+#~ msgid "Log In"
+#~ msgstr "Einloggen"

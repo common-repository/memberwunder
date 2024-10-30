@@ -1,0 +1,66 @@
+// Lesson
+
+.lesson {
+    &__nav {
+        margin: 30px 0;
+        &-list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: row wrap;
+        }
+        &-item {
+            width: 33.333%;
+            @media (max-width: 1200px) {
+                width: 50%;
+            }
+            @media (max-width: 480px) {
+                width: 100%;
+                text-align: center;
+            }
+            &:nth-child(2) {
+                text-align: center;
+                @media (max-width: 1200px) {
+                    order: 1;
+                    width: 100%;
+                    margin-top: 20px;
+                }
+            }
+        }
+        &-link {
+            font-weight: 600;
+            display: block;
+            white-space: nowrap;
+            .icon {
+                font-size: 24px;
+                vertical-align: middle;
+                margin: 0 4px;
+            }
+        }
+        &-status {
+            display: inline-block;
+            background: @clrLink;
+            color: @clrLL;
+            padding: 15px 45px;
+            @media (max-width: 480px) {
+                width: 100%;
+            }
+        }
+        .link--next {
+            color: @clrOk;
+            text-align: right;
+            &:hover {
+                color: darken(@clrOk, 10%)
+            }
+            @media (max-width: 480px) {
+                text-align: center;
+            }
+        }
+        .link--prev {
+            color: @clrLink;
+            &:hover {
+                color: darken(@clrLink, 10%)
+            }
+        }
+    }
+}

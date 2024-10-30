@@ -1,0 +1,1 @@
+<?php \MemberWunder\Services\Smtp::twm_smtp_settings();?>

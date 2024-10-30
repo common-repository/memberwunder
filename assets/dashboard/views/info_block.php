@@ -1,0 +1,1 @@
+<div class="twm_info_block" data-url="<?= \MemberWunder\Helpers\General::admin_ajax_link( $args );?>"></div>

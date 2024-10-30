@@ -1,0 +1,186 @@
+// Header
+.header {
+    position: relative;
+    &-container {
+        > .container {
+            @media (max-width: 1200px) {
+                width: 100%;
+            }
+        }	
+    }
+    &__logo {
+        &-link {
+            display: flex;
+            height: 88px;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            img {
+                max-height: 50px;
+                max-width: 100%;
+            }
+            @media (max-width: 768px) {
+                height: 66px;
+                max-width: 60vw;
+                justify-content: center;
+                align-items: center;
+                img {
+                    max-height: 40px;
+                    max-width: 100%;
+                }
+            }
+            .logo--fixed {
+                position: fixed;
+            }
+            &.logo--hero {
+                margin-top: 20px;
+            }
+        }
+        &-nav {
+            position: absolute;
+            color: @clrTopText;
+            height: 100%;
+            padding: 15px;
+            @media (max-width: 768px) {
+                padding: 8px;
+            }
+            [class*=ion-] {
+                font-size: 38px;
+                &:last-child {
+                    display: none;
+                }
+            }
+            &[aria-expanded=true] {
+                [class*=ion-] {
+                    display: none;
+                    &:last-child {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    &__nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+        @media (max-width: 768px) {
+            flex-flow: column;
+            margin-top: 0;
+        }
+        &-list {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            @media (max-width: 768px) {
+                flex-flow: column;
+            }
+            &:last-child {
+                margin-left: 20px;
+                @media (max-width: 768px) {
+                    margin-left: 0;
+                }
+            }
+        }
+        &-item {
+            position: relative;
+            list-style-type: none;
+            &:not(:first-child):before {
+                content: '';
+                position: absolute;
+                top: -8px;
+                left: 0;
+                bottom: 0;
+                margin: auto;
+                display: block;
+                background: @clrTopDelim;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                @media (max-width: 992px) {
+                    display: none;
+                }
+            }
+            &.active {
+                a {
+                    color: @clrPersonalLink;
+                }
+            }
+        }
+        &-link {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: @fntSize;
+            display: block;
+            padding: 10px 30px;
+            color: @clrLink;
+            transition: .2s;
+            white-space: nowrap;
+            &:hover {
+                color: @clrPersonalLink;
+            }
+            @media (max-width: 992px) {
+                padding: 10px 15px;
+            }
+            @media (max-width: 768px) {
+                text-align: center;
+                padding: 15px;
+            }
+        }
+        &-personal {
+            @media (max-width: 768px) {
+                border-top: 1px solid fade(@clrPersonalLink, 10%);
+            }
+        }
+        &-personal & {
+            &-item {
+                &:first-child {
+                    .header__nav-link {
+                        @media (min-width: 768px) {
+                            padding-left: 0;
+                        }
+                    }
+                }
+                &:last-child {
+                    .header__nav-link {
+                        @media (min-width: 768px) {
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+            &-link {
+                padding: 10px 20px;
+                text-transform: none;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 22px;
+                @media (max-width: 1200px) {
+                    padding: 10px;
+                }
+                @media (max-width: 768px) {
+                    padding: 10px;
+                }
+                .icon {
+                    font-size: 24px;
+                    margin: 0 4px;
+                    transform: translateY(-2px);
+                    display: inline-block;
+                }
+                span {
+                    vertical-align: 6px;
+                    color: @clrPersonalLink;
+                }
+                &:hover {
+                    span {
+                        // color: @clrLink;
+                    }
+                    .icon {
+                        // color: @clrPersonalLink;
+                    }
+                }
+            }
+        }
+    }
+}

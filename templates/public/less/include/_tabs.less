@@ -1,0 +1,30 @@
+.nav {
+    &.nav-tabs {
+        > li {
+            &:first-child {
+                margin-left: 10px;
+            }
+            a {
+                color: @clrText;
+                border-radius: 0;
+            }
+            &:not(.active) {
+                a {
+                    color: @clrLink;
+                    &:hover {
+                        // color: @clrLink;
+                        background: fade(@clrLight, 10%);
+                    }
+                }
+            }
+            &.active {
+                a {
+                    background-color: transparent;
+                    &:hover {
+                        color: @clrText;
+                    }
+                }
+            }
+        }
+    }
+}

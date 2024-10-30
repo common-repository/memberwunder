@@ -1,0 +1,1 @@
+<?php _e( 'This function will be available in MemberWunder PRO.', TWM_TD );?>

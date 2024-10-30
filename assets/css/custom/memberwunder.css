@@ -1,0 +1,96 @@
+/* ADMIN BAR */
+#wpadminbar #wp-admin-bar-tw-membership .ab-icon:before{
+    content: "\f118";
+    top: 3px;
+}
+#wpbody-content .twm_info_block{
+  margin-right: 20px;
+}
+/* END ADMIN BAR */
+
+/* GENERAL NOTICE STYLES */
+#wpwrap .memberwunder-notice{
+  padding: 0;
+  margin: 5px 0 10px;
+  border: 1px solid #E5E5E5;
+  background: white;
+  overflow: hidden;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 1;
+  min-height: 80px;
+  display: table;
+  width: 100%;
+}
+#wpwrap .memberwunder-notice .memberwunder-notice-text{
+  color: black;
+  font-weight: normal;
+  line-height: 20px;
+  padding: 10px 20px;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+}
+#wpwrap .memberwunder-notice .memberwunder-notice-text p{
+  margin: 0;
+}
+#wpwrap .memberwunder-notice .memberwunder-notice-text .memberwunder-notice-text-type-error{
+  color: red;
+}
+#wpwrap .memberwunder-notice > div {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: default;
+    line-height: 1.5;
+}
+#wpwrap .memberwunder-notice .memberwunder-notice-actions{
+    border-left: 1px solid #E5E5E5;
+    background: #f7f7f7;
+    padding: 0 30px;
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#wpwrap .memberwunder-notice .memberwunder-notice-actions button{
+    border: none;
+    background: none;
+    font-size: 12px;
+    color: #C5C5C5;
+    margin-top: 10px;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+}
+
+#wpwrap .memberwunder-notice .memberwunder-notice-actions button:hover{
+    color: black;
+}
+
+#wpwrap .memberwunder-notice .memberwunder-notice-actions a:focus,
+#wpwrap .memberwunder-notice .memberwunder-notice-actions a:visited,
+#wpwrap .memberwunder-notice .memberwunder-notice-actions a:hover,
+#wpwrap .memberwunder-notice .memberwunder-notice-actions a{
+  outline: 0;
+  display: block;
+}
+
+#wpwrap .memberwunder-notice.memberwunder-ajax-go .memberwunder-notice-actions{
+  opacity: 0.5;
+}
+
+#wpwrap .memberwunder-notice .memberwunder-notice-logo{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-width: 80px;
+}
+/* END GENERAL NOTICES STYLES */
+
+/* GET MEMBERWUNDER */
+span.tw_get_memberwunder{
+  color: red;
+}
+/* END GET MEMBERWUNDER */
